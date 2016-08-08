@@ -38,9 +38,9 @@
 \contentsline {subsection}{\numberline {4.5.2}Datasets}{15}{subsection.4.5.2}
 \contentsline {chapter}{\numberline {5}Outlook}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Codon Bias Indices}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{18}{section.5.2}
+\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{17}{section.5.2}
 \contentsline {section}{\numberline {5.3}Package development}{18}{section.5.3}
-\contentsline {chapter}{\numberline {6}R package on GitHub}{19}{chapter.6}
-\contentsline {chapter}{\numberline {A}An appendix - the Darwin code for codon indices}{21}{appendix.A}
-\contentsline {chapter}{Bibliography}{29}{appendix*.14}
-\contentsline {chapter}{Curriculum Vitae}{31}{section*.15}
+\contentsline {chapter}{\numberline {6}R package on GitHub}{21}{chapter.6}
+\contentsline {chapter}{\numberline {A}An appendix - the Darwin code for codon indices}{23}{appendix.A}
+\contentsline {chapter}{Bibliography}{31}{appendix*.14}
+\contentsline {chapter}{Curriculum Vitae}{33}{section*.15}

@@ -7,19 +7,80 @@ There are dozens of codon bias indices that yet have to be implemented in the pa
 Here is an overview on the implemented, the ones which have a void function backbone and the non-implemented functions:
 
 \begin{table}[tb]
-\caption[Codon Bias Indices]{Codon Bias Indices}
+\begin{footnotesize}
+\caption[Codon Bias Indices]{Measures of codon bias}
 \label{tab:CodonBiasIndices}
 \centering
 \begin{tabular}{cccc}
 \toprule
 	name 	& implemented & backbone & missing	  \\ 
 \midrule
+\textbf{Relative codon frequencies} \\
+	$g_c$	& & & x	 \\
+	$g_{ac}$	& & & x	 \\
+	$f_{ac}$	& & & x	 \\
+	$r_{ac}$	& & & x	 \\
+	$w_{ac}$	& x & & 	 \\
+\midrule
+\textbf{Measures based on reference} \\
 	Fop	& x	 & & \\
-	CBI		& & x &	  \\
-	B		& & x &   \\
-	E		& & x &	  \\
+	CBI		& & x &	 \\
+	B		& & & x  \\
+	E		& & & x	 \\
+	CEC		& & & x	 \\
+\midrule	
+\textbf{Measures based on the geometric mean} \\
+	P		& & & x	 \\
+	CAI		& x & &	 \\
+	rCAI		& & & x	 \\
+	RCB		& & & x	 \\
+	P1		& & & x	 \\
+	P2		& & & x	 \\
+	TPI		& & & x	 \\
+	GCB		& & & x	 \\
+	tAI		& & & x	 \\
+	nTE		& & & x	 \\
+\midrule	
+\textbf{Measures based on deviation from an expected distribution} \\
+	CPB		& & & x	 \\
+	MCB		& & & x	 \\
+	$B_a$	& & & x	 \\
+	$\chi^2$ 		& & x &	 \\
+	Ew		& & & x	 \\
+	SCUO		& & & x	 \\
+\midrule	
+\textbf{Measures focusing on tRNA interaction} \\
+	P1		& & & x	 \\
+	P2		& & & x	 \\
+	TPI		& & & x	 \\
+\midrule	
+\textbf{Measures based on intrinsic properties of codon usage} \\
+	GC3s		& x* & &	 \\
+	Nc		& x & &	 \\
+	MILC		& & & x	 \\
+	MELP		& & & x	 \\
+	ICDI		& & & x	 \\
+	HK		& & & x	 \\
+	S2str	& & & x	 \\
+	ER		& & & x	 \\
+	v(c)		& & & x	 \\
+	PLS		& & & x	 \\
+	SUMBLE		& & & x	 \\
+	SEMPPR		& & & x	 \\
+	\midrule	
+\textbf{Measures for total codon usage in genomes} \\
+	$w_{ac}$	& x & & 	 \\
+	\midrule	
+	tot. Codon using		& & & x	 \\
+	$D_{mean}$		& & & x	 \\
+	GRAVY		& & & x	 \\
+	AROMA		& & & x	 \\
+	$k_s$		& & & x	 \\
 \bottomrule 
+
+* needs proper implementation
 \end{tabular}
+\end{footnotesize}
 \end{table}
 
 
