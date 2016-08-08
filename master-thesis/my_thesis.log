@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  8 AUG 2016 17:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  8 AUG 2016 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,7 +1789,7 @@ File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
  [5]
-<images/fig1_plotOCU.jpg, id=420, 673.51625pt x 673.51625pt>
+<images/fig1_plotOCU.jpg, id=422, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
@@ -1966,7 +1966,7 @@ Chapter 6.
 Appendix A.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\T1/phv/b/n/24.88 An ap-pendix - the Dar-win code for
+[]\T1/phv/b/n/24.88 Appendix - the Dar-win code for
  []
 
 
@@ -2024,7 +2024,7 @@ Overfull \hbox (206.99298pt too wide) in paragraph at lines 11--17
 
 
 
-] <tail/cv.pdf, id=958, 597.50829pt x 845.0471pt>
+] <tail/cv.pdf, id=959, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf>
@@ -2035,7 +2035,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<tail/cv.pdf, id=961, page=1, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=962, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2059,7 +2059,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [33 <./tail/cv.pdf>]
-<tail/cv.pdf, id=982, page=2, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=983, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2074,7 +2074,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[34 <./tail/cv.pdf>] <tail/cv.pdf, id=992, page=3, 597.50829pt x 845.0471pt>
+[34 <./tail/cv.pdf>] <tail/cv.pdf, id=993, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2099,14 +2099,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 ) (./tail/appendix.aux) (./tail/biblio.aux) (./tail/cv.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
-Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A4E05A063DFDAD8643284F0EC45FA083;2412.
+
+
+Package rerunfilecheck Warning: File `my_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `my_thesis.out':
+(rerunfilecheck)             Before: A4E05A063DFDAD8643284F0EC45FA083;2412
+(rerunfilecheck)             After:  1102ACC2DF9878ACC59A5CDF6E57401A;2409.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
  28639 strings out of 494474
  464980 string characters out of 6172703
- 1047432 words of memory out of 5000000
+ 1047409 words of memory out of 5000000
  30368 multiletter control sequences out of 15000+600000
  133990 words of font info for 257 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
@@ -2124,10 +2131,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (53 pages, 554423 bytes).
+Output written on my_thesis.pdf (53 pages, 554428 bytes).
 PDF statistics:
- 1162 PDF objects out of 1200 (max. 8388607)
- 1074 compressed objects within 11 object streams
+ 1163 PDF objects out of 1200 (max. 8388607)
+ 1075 compressed objects within 11 object streams
  609 named destinations out of 1000 (max. 500000)
  43877 words of extra memory for PDF output out of 51595 (max. 10000000)
 
