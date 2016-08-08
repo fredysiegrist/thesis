@@ -1,0 +1,322 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  2 AUG 2016 10:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**titlepage.tex
+(./titlepage.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 11 languages loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.7 {\huge
+           Statistical Analysis of \\[12pt] Coding Sequences } \\[24pt]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (41.44449pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 Statistical 
+ []
+
+
+Overfull \hbox (22.36115pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 Anal- 
+ []
+
+
+Overfull \hbox (7.94446pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 y- 
+ []
+
+
+Overfull \hbox (10.05554pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 sis 
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 of 
+ []
+
+
+Overfull \hbox (29.38895pt too wide) in paragraph at lines 7--7
+ []\OT1/cmss/m/n/10 Coding 
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 Se- 
+ []
+
+
+Overfull \hbox (32.66667pt too wide) in paragraph at lines 7--7
+ \OT1/cmss/m/n/10 quences 
+ []
+
+! Undefined control sequence.
+l.8 \textcolor
+              {gray}{\small{Set-up of an R package \\ \textit{statanacoseq} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 \textcolor{gray}{\small
+                           {Set-up of an R package \\ \textit{statanacoseq} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.50008pt too wide) in paragraph at lines 8--8
+ []\OT1/cmss/m/n/10 graySet- 
+ []
+
+
+Overfull \hbox (10.33334pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 up 
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 of 
+ []
+
+
+Overfull \hbox (9.97224pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 an 
+ []
+
+
+Overfull \hbox (6.45836pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 R 
+ []
+
+
+Overfull \hbox (22.63893pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 pack- 
+ []
+
+
+Overfull \hbox (14.25003pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 age 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 8.
+
+
+Overfull \hbox (53.94473pt too wide) in paragraph at lines 8--8
+ []\OT1/cmss/m/sl/10 statanacoseq 
+ []
+
+
+Overfull \hbox (44.36115pt too wide) in paragraph at lines 8--8
+ []\OT1/cmss/m/n/10 distributed 
+ []
+
+
+Overfull \hbox (10.16669pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 on 
+ []
+
+
+Overfull \hbox (30.0834pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 GitHub 
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 8--8
+ []\OT1/cmss/m/n/10 to 
+ []
+
+
+Overfull \hbox (20.41673pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 carry 
+ []
+
+
+Overfull \hbox (11.55557pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 fu- 
+ []
+
+
+Overfull \hbox (16.63892pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 ture 
+ []
+
+
+Overfull \hbox (13.66667pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 im- 
+ []
+
+
+Overfull \hbox (15.33333pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 ple- 
+ []
+
+
+Overfull \hbox (20.8889pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 men- 
+ []
+
+
+Overfull \hbox (11.75002pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 ta- 
+ []
+
+
+Overfull \hbox (20.00002pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 tions 
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 8--8
+ \OT1/cmss/m/n/10 of 
+ []
+
+
+Overfull \hbox (27.00006pt too wide) in paragraph at lines 8--9
+ []\OT1/cmss/m/n/10 Codon 
+ []
+
+
+Overfull \hbox (17.69447pt too wide) in paragraph at lines 8--9
+ \OT1/cmss/m/n/10 Bias 
+ []
+
+
+Overfull \hbox (11.2778pt too wide) in paragraph at lines 8--9
+ \OT1/cmss/m/n/10 In- 
+ []
+
+
+Overfull \hbox (25.2778pt too wide) in paragraph at lines 8--9
+ \OT1/cmss/m/n/10 dexes. 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+! Undefined control sequence.
+<argument> ...ma \@parboxrestore \includegraphics 
+                                                  [width=4cm]{images/Logo_Un...
+l.13 ...s[width=4cm]{images/Logo_University_Bern}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...s[width=4cm]{images/Logo_University_Bern}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...th=4cm]{images/Logo_University_Bern}
+                                                  \@@par 
+l.13 ...s[width=4cm]{images/Logo_University_Bern}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...s[width=4cm]{images/Logo_University_Bern}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 ...s[width=4cm]{images/Logo_University_Bern}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+<argument> ... {3em} Fredy Siegrist\\[9pt] \small 
+                                                  accepted on the faculty re...
+l.34 Bern, Universities of Bern and Fibourg, 2016}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `head/declaration_en.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.34 Bern, Universities of Bern and Fibourg, 2016}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 494474
+ 281 string characters out of 6172703
+ 51073 words of memory out of 5000000
+ 3342 multiletter control sequences out of 15000+600000
+ 4301 words of font info for 16 fonts, out of 8000000 for 9000
+ 452 hyphenation exceptions out of 8191
+ 19i,10n,12p,192b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

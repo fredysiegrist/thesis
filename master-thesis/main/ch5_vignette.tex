@@ -1,0 +1,88 @@
+\chapter{Vignette}
+This document is a vignette for using the R package statanacoseq:
+
+
+\section{statanacoseq}
+
+
+\section{Demos}
+Fop
+NEC
+plotOCU
+
+
+\section{Tests}
+checkCDNA
+Fop
+NEC
+NucleotideContent
+species
+
+\section{Functions}
+
+\subsection{Indices}
+ComputeCAI	Codon Adaptation Index
+ComputeCAIVector	Codon Adaptation Index Vector
+ComputeCarboneRA	Compute Carbone Relative Adaptiveness
+ComputeFop	Frequency of Optimal Codons
+ComputeGC3syn	GC content 3rd position of synonymous codons		% need fixing
+ComputeNEC	Effective number of codons							% I guess all functions need require(seqinr)
+RelativeAdaptiveness	Compute Relative Adaptiveness				% Handle warnings
+
+\subsubsection{Intermediator functions for indices}
+RSCU	Relative Synonymous Codon Usage								% 
+
+\subsubsection{Void indices}
+ComputeCBI	Codon Bias Index
+ScaledChiSquare	Scaled Chi-Square
+SilentSiteComposition	Base Composition at Silent Sites
+
+\subsubsection{Function from Darwin left untranscribed}
+Entries	Entries
+
+\subsection{Helperfunctions}
+anticodoncount	Calculate Global Anticodon Usage
+areopts	Optimality Decision for Codons of Custom Genome
+checkCDS	Checks Integrity of CDS Sequence
+CodonProb	Codon Probability table
+CodonProbabilities	Codon Probabilities
+CodonUsage	Table for Codon Usage and Optimality of Codons
+FindHighlyExpressedGenes	Find Highly Expressed Genes				% needs transcriptome data
+NucleotideContent	Nucleotide Content							% needs checking for what it should do
+reversecomplement	Reverse Complement Anticodon
+SetupRA	Relative Synonymous Codon Usage
+
+\subsubsection{Graphical functions}
+plotOCU	Plot of Optimality Score for Codons in a Single Protein
+
+\subsubsection{3rd party functions}
+movingAverage	Calculating a Moving Average
+
+\subsubsection{Obsolete functions}
+countcodonfreq	Count Codon Frequency
+
+\subsubsection{Data Handling}
+mylist	My List of Nucleotide-Sequences and Aminoacid-Sequences
+readfasta	Processed tRNA Containing Fasta File Headers to Count Anticodons
+readintronic	Read tRNA Intronic Gene Count Statistics
+readstats	Read tRNA Gene Count Statistics
+readtRNAout	Read tRNA Gene Count Statistics
+searchfafile	Search and Return a Fasta File Name from Partial Name
+
+\section{Sampledata}
+
+\subsection{External Data}
+Etef.sample.protein.fasta
+Etef.sample.transcript.fasta
+seq30469.out
+
+\subsection{Datasets}
+aa\_ac	Aminoacids and Anticodons
+GtRNAdb2species	Viruses, Eukaryota, Archaea, Bacteria Species Names on GtRNAdb2
+Tef	Optimal Codon Table for Eragostis tef Decided on tRNAscan-SE count of tRNA genes in sequenced genome
+veab		Viruses, Eukaryota, Archaea, Bacteria Species File Names on GtRNAdb2
+veabfa	Viruses, Eukaryota, Archaea, Bacteria Species Fasta File Names on GtRNAdb2
+
+
+
+

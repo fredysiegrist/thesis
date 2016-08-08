@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Thesis Settings
+%		Custom settings
+%
+%		2016
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%   Use this file for your own custom packages, command-definitions, etc...
+%
+
+
+% the following lines are for creating a simplified TO-DO box. However since boites is not per default installed with all latex-distributions, we have removed this example again
+% if you want to use it and do not have "boites" installed, you can get it from here: http://www.ctan.org/tex-archive/macros/latex/contrib/boites
+%
+%\usepackage{boites,boites_exemples}
+%\newcommand{\todolist}[1]{\begin{boiteepaisseavecuntitre}{TO DO in this chapter} #1 \end{boiteepaisseavecuntitre}}  % creates a little box
+% %\newcommand{\todolist}[1]{}  % to be used when to do is not to be printed
+
+
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath,amsfonts,amssymb} % American matehematical society
+\usepackage{array}
+\usepackage{hhline}                       % for adjustwidth environmentF
+\usepackage[strict]{changepage}           % for formal definitions
+\usepackage{framed}                       % environment derived from framed.sty: see leftbar environment definition
+\definecolor{formalshade}{rgb}{0.95,0.95,1}
+\usetikzlibrary{trees}
+\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage[procnames]{listings}
+%\usepackage[latin1]{inputenc}              % macht Umlaute(latin1 linux,ansinew win)
+%\usepackage{german,ngerman}         % Deutsche Bezeichnungen bei Gleitobj
+%\usepackage[footnotesize]{caption2}    % andere Textformate für Gleitobjekte
+\usepackage{flafter}                             % Gleitobjekte nach Aufruf einfügen
+\usepackage{fancybox}                        % Für den Gebrauch von \boxput in der Erklärung
+\usepackage{longtable}                     % Tabellen grösser als eine Seite
+\usepackage{pdfpages}                        % makes inclusion of other pdf-documents easy
+\usepackage[pdftex]{thumbpdf}          % thumbnails im pdf-dokument
+%\usepackage[colorlinks,pdftex,pdfpagelabels, %            bookmarks,hyperfootnotes]{hyperref} % für hyperlinks im dokument
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif

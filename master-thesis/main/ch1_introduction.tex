@@ -1,0 +1,18 @@
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+This document is written based on a \href{http://phd.epfl.ch/thesistemplates}{Generic EPFL Thesis Template in LaTeX v. 5.57} and is SUBDUE to further changes as it should be included in the GitHub project and some of the Chapters should contain text elements that are used to build up a proper R vigniette of the package. Meaning to give examples for the usage of the different indices and functions for biological interpretation with the code for repeating the \textit{in silico} experiments by applying the code lines step by step or by copy pasting the entire code for a sample experiment wich raw data can be found in a public database.     \dots
+
+\section{Aim}
+We are aiming to set up a tool to automatically calculate and evaluate statistical properties of codon bias, especially implementing the calculation for different codon bias indices and for genes of organisms where its genome is sequenced for the most part. That means that we have at least a partially sequenced genome and the information on expressed sequences or protiens
+The most simpple calculation of codon bias is the GC content of the third base of synonymous codons of a single gene or coding DNA sequence (CDS). This codon bias reflects neutral mechanisms like mutational selection for a high or low GC content in an organism.
+\dots reference \dots
+
+Such mechanisms based on a single gene can be revised by incorporating species independent information of general translation efficiency and RNA folding. Moreover, instead of analysing a single nucleotide position alone (mononucleotides), information on cytosine (C)-methylation can be taken into account and calculation on dinucleotides (GC) for mammals or quadnucleotide (GATC) or pentnucleotides (CCWGG) wich harbours a degenerate nucleotide position that can be A or T. The succession of codons (bicodons or even tricodons) may of course also be of interest but may only refine codon bias indexes where information on the whole genome or even for species is taken into account.
+
+When we aim for introducing a little bit more suffisticated indexes, they will depend on additional information such as, the transcriptome, the genome, gene expression, tRNA availability
+
+One aspect for some codon bias mesurements is the definition of the optimal codon, thus the one with the most desirable quality. This information is used to mesure the frequency of optimal codons (Fop) or the P1 index, a meaure of the influence of tRNA availability. Which of the codons is optimal can be manifoldly defined, such as predicted using the tRNA gene copy number as a indicator as tRNA levels correlate with gene copy number in general \cite{Chaney2015}(Chaney and Clark 2015).
+
+\section{Teff genome}
+
+\cite{Cannarozzi2014}

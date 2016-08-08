@@ -1,0 +1,81 @@
+tRNAscan-SE v.2.0 (Sept 2015) scan results (on host woese.soe.ucsc.edu)
+Started: Fri Sep 25 08:21:05 PDT 2015
+
+------------------------------------------------------------
+Search Mode:                 Eukaryotic
+Searching with:              Infernal First Pass->Infernal
+Perform isotype specific model scan
+Covariance model:            infernal-1.1/TRNAinf-euk.cm
+Infernal first pass cutoff score: 0
+Isotype specific
+
+Reporting HMM/2' structure score breakdown
+------------------------------------------------------------
+
+First-pass (tRNAscan/EufindtRNA) Stats:
+---------------
+Sequences read:         14
+Seqs w/at least 1 hit:  14
+Bases read:             21459642 (x2 for both strands)
+Bases in tRNAs:         22764
+tRNAs predicted:        288
+Av. tRNA length:        79
+Script CPU time:        2.83 s
+Scan CPU time:          12.19 s
+Scan speed:             3520.9 Kbp/sec
+
+First pass search(es) ended: Fri Sep 25 08:21:15 PDT 2015
+
+Infernal Stats:
+-----------
+Candidate tRNAs read:     288
+Infernal-confirmed tRNAs:     288
+Bases scanned by Infernal:  28524
+% seq scanned by Infernal:  0.1 %
+Script CPU time:          3.69 s
+Infernal CPU time:            482.81 s
+Scan speed:               59.1 bp/sec
+
+Infernal analysis of tRNAs ended: Fri Sep 25 08:32:05 PDT 2015
+
+Overall scan speed: 85578.4 bp/sec
+
+tRNAs decoding Standard 20 AA:              288
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA):        0
+tRNAs with undetermined/unknown isotypes:   0
+Predicted pseudogenes:                      0
+                                            -------
+Total tRNAs:                                288
+
+tRNAs with introns:     	68
+
+| Pro-TGG: 8 | Val-TAC: 2 | Ser-GCT: 6 | Arg-ACG: 4 | Arg-CCG: 2 | Phe-GAA: 10 | Lys-CTT: 10 | Lys-TTT: 6 | Ile-TAT: 4 | Met-CAT: 6 | Tyr-GTA: 10 |
+
+Isotype / Anticodon Counts:
+
+Ala   : 22	  AGC: 12      GGC:         CGC: 2       TGC: 8     
+Gly   : 24	  ACC:         GCC: 16      CCC: 2       TCC: 6     
+Pro   : 10	  AGG: 2       GGG:         CGG:         TGG: 8     
+Thr   : 16	  AGT: 10      GGT:         CGT: 2       TGT: 4     
+Val   : 18	  AAC: 12      GAC:         CAC: 4       TAC: 2     
+Ser   : 22	  AGA: 10      GGA:         CGA: 2       TGA: 4       ACT:         GCT: 6     
+Arg   : 18	  ACG: 4       GCG:         CCG: 2       TCG:         CCT: 2       TCT: 10    
+Leu   : 24	  AAG: 4       GAG:         CAG: 2       TAG:         CAA: 14      TAA: 4     
+Phe   : 10	  AAA:         GAA: 10                              
+Asn   : 12	  ATT:         GTT: 12                              
+Lys   : 16	                            CTT: 10      TTT: 6     
+Asp   : 14	  ATC:         GTC: 14                              
+Glu   : 16	                            CTC: 8       TTC: 8     
+His   : 8	  ATG:         GTG: 8                               
+Gln   : 12	                            CTG: 4       TTG: 8     
+Ile   : 16	  AAT: 12      GAT:                      TAT: 4     
+Met   : 10	                            CAT: 10                 
+Tyr   : 10	  ATA:         GTA: 10                              
+Supres: 0	                            CTA:         TTA:       
+Cys   : 4	  ACA:         GCA: 4                               
+Trp   : 6	                            CCA: 6                  
+SelCys: 0	                                         TCA:       
+
+
+

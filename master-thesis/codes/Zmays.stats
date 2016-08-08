@@ -1,0 +1,82 @@
+tRNAscan-SE v.1.3 (March 2011) scan results (on host aero.cse.ucsc.edu)
+Started: Thu Jul 26 22:25:36 PDT 2012
+
+------------------------------------------------------------
+Search Mode:                 Eukaryotic
+Searching with:              tRNAscan + EufindtRNA -> Cove
+Covariance model:            TRNA2-euk.cm
+tRNAscan parameters:         Strict
+EufindtRNA parameters:       Relaxed (Int Cutoff= -32.1)
+
+Reporting HMM/2' structure score breakdown
+------------------------------------------------------------
+
+First-pass (tRNAscan/EufindtRNA) Stats:
+---------------
+Sequences read:         13
+Seqs w/at least 1 hit:  13
+Bases read:             2066432718 (x2 for both strands)
+Bases in tRNAs:         2747160
+tRNAs predicted:        28967
+Av. tRNA length:        94
+Script CPU time:        417.21 s
+Scan CPU time:          1253.04 s
+Scan speed:             3298.3 Kbp/sec
+
+First pass search(es) ended: Thu Jul 26 22:54:15 PDT 2012
+
+Cove Stats:
+-----------
+Candidate tRNAs read:     28967
+Cove-confirmed tRNAs:     2249
+Bases scanned by Cove:  3210632
+% seq scanned by Cove:  0.1 %
+Script CPU time:          117.99 s
+Cove CPU time:            2336.55 s
+Scan speed:               1374.1 bp/sec
+
+Cove analysis of tRNAs ended: Fri Jul 27 00:06:48 PDT 2012
+
+Summary
+--------
+Overall scan speed: 1001957.8 bp/sec
+
+tRNAs decoding Standard 20 AA:              1455
+Selenocysteine tRNAs (TCA):                 4
+Possible suppressor tRNAs (CTA,TTA):        7
+tRNAs with undetermined/unknown isotypes:   12
+Predicted pseudogenes:                      771
+                                            -------
+Total tRNAs:                                2249
+
+tRNAs with introns:     	54
+
+| Thr-GGT: 1 | Val-AAC: 3 | Val-CAC: 1 | Val-TAC: 1 | Ser-GCT: 1 | Arg-TCT: 1 | Leu-TAA: 2 | Asn-ATT: 1 | Ile-AAT: 1 | Met-CAT: 24 | Tyr-ATA: 1 | Tyr-GTA: 16 | Cys-ACA: 1 |
+
+Isotype / Anticodon Counts:
+
+Ala   : 122	  AGC: 79      GGC:         CGC: 28      TGC: 15    
+Gly   : 55	  ACC:         GCC: 33      CCC: 11      TCC: 11    
+Pro   : 59	  AGG: 15      GGG: 1       CGG: 9       TGG: 34    
+Thr   : 58	  AGT: 21      GGT: 13      CGT: 7       TGT: 17    
+Val   : 61	  AAC: 25      GAC: 15      CAC: 16      TAC: 5     
+Ser   : 68	  AGA: 13      GGA: 23      CGA: 7       TGA: 11      ACT:         GCT: 14    
+Arg   : 90	  ACG: 45      GCG:         CCG: 6       TCG: 7       CCT: 12      TCT: 20    
+Leu   : 79	  AAG: 30      GAG:         CAG: 14      TAG: 9       CAA: 20      TAA: 6     
+Phe   : 27	  AAA: 2       GAA: 25                              
+Asn   : 53	  ATT: 2       GTT: 51                              
+Lys   : 350	                            CTT: 206     TTT: 144   
+Asp   : 45	  ATC: 1       GTC: 44                              
+Glu   : 59	                            CTC: 30      TTC: 29    
+His   : 33	  ATG: 4       GTG: 29                              
+Gln   : 39	                            CTG: 14      TTG: 25    
+Ile   : 79	  AAT: 73      GAT:                      TAT: 6     
+Met   : 90	                            CAT: 90                 
+Tyr   : 28	  ATA: 2       GTA: 26                              
+Supres: 7	                            CTA: 6       TTA: 1     
+Cys   : 30	  ACA: 2       GCA: 28                              
+Trp   : 30	                            CCA: 30                 
+SelCys: 4	                                         TCA: 4     
+
+
+

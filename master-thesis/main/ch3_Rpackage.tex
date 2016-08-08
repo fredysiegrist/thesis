@@ -1,0 +1,22 @@
+\chapter{R package setup and maintenance}
+In this chapter we will describe the generation of the R package structure, implementation in R Studio and hosting on GitHub.
+
+
+\section{Generation of R package}
+The first intention was to generate a package named "statanacoseq" in the linux version of R. The name is pretty long and has not been found to be used as R package name anywhere else, that is screened by google.
+Setting up of the R package has been done with the help of devtools, some few lines of code generate a backbone that then can be filled with the content and basically be packed after having put the first function in to an R file. 
+  \lstinputlisting[language=R, breaklines=true]{codes/demo.R}
+In this case a simple function with misleading name was countcodonfreq but was used to check the 'validated' fasta files by printing out the fraction of codons to aminoacids for the nucleotide and aminoacids with the same entry name. 
+  \lstinputlisting[language=R, breaklines=true]{codes/countcodonfreq.R}
+
+\subsection{Maintenance with R Studio}
+To be more efficient in managing the project the project initiated with devtools was imported into R Studio, a software package that brings many functions for assisting with R code writing, documentation and communication with the version control system \cite{Rstudio2015}. 
+
+\subsection{Publishing on GitHub - Description of versions}
+After the package got the first function to work independently on sample data from the package it was submitted to GitHub, a hosting service for software projects, for version control and to make it available for revision. The origin is placed at \href{https://github.com/fredysiegrist/statanacoseq.git}{https://github.com/fredysiegrist/statanacoseq.git} \cite{Charles2013}. Since no version has been generated where the indices that are not implemented in Darwin has been drawed up, the version remained at 0.0.0.900x, marking it as under development. At the moment of writing this text the version is 0.0.0.9001 and will be set to 0.0.0.9002 for the evaluation of this work and 0.0.0.9003 after the corrections. Any further version will mark improvements to the code made post thesis submission.
+
+The version 0.0.1 should mark the mile stone of achieving better performance than the Darwin package, incuding the calculation of not-implemented functions in that code.
+
+Version 0.1.0 should be the version that is distributed to the scientific community and following versions may be described in articles.
+
+Version 1.0.0 will be defined after distribution to CRAN or bioconductor, if a bug free code that is consistant in it-self is created and will have some back-references from other packages.
