@@ -6,82 +6,82 @@ This document is a vignette for using the R package statanacoseq:
 
 
 \section{Demos}
-Fop
-NEC
-plotOCU
+Fop \quad Computes the Frequency of Optimal Codons in the Eragostis tef Sample Set \\
+NEC \quad Computes the Overall Number of Effective Codons in the Eragostis tef Sample Set \\
+plotOCU \quad Plots the Codon Optimality Score for Each Aminoacid in the Eragostis tef Sample Set with Moving Averages \\
 
 
 \section{Tests}
-checkCDNA
-Fop
-NEC
-NucleotideContent
-species
+checkCDNA \quad \\
+Fop \quad \\
+NEC \quad \\
+NucleotideContent \quad \\
+species \quad \\
 
 \section{Functions}
 
 \subsection{Indices}
-ComputeCAI	Codon Adaptation Index
-ComputeCAIVector	Codon Adaptation Index Vector
-ComputeCarboneRA	Compute Carbone Relative Adaptiveness
-ComputeFop	Frequency of Optimal Codons
-ComputeGC3syn	GC content 3rd position of synonymous codons		% need fixing
-ComputeNEC	Effective number of codons							% I guess all functions need require(seqinr)
-RelativeAdaptiveness	Compute Relative Adaptiveness				% Handle warnings
+ComputeCAI	\quad Codon Adaptation Index \\
+ComputeCAIVector \quad 	Codon Adaptation Index Vector \\
+ComputeCarboneRA	\quad Compute Carbone Relative Adaptiveness \\
+ComputeFop	\quad Frequency of Optimal Codons \\
+ComputeGC3syn	\quad GC content 3rd position of synonymous codons	 \\	% need fixing
+ComputeNEC	\quad Effective number of codons \\							% I guess all functions need require(seqinr)
+RelativeAdaptiveness	\quad Compute Relative Adaptiveness	 \\			% Handle warnings
 
 \subsubsection{Intermediator functions for indices}
-RSCU	Relative Synonymous Codon Usage								% 
+RSCU	Relative \quad Synonymous Codon Usage \\								% 
 
 \subsubsection{Void indices}
-ComputeCBI	Codon Bias Index
-ScaledChiSquare	Scaled Chi-Square
-SilentSiteComposition	Base Composition at Silent Sites
+ComputeCBI	\quad Codon Bias Index  \\
+ScaledChiSquare	\quad Scaled Chi-Square  \\
+SilentSiteComposition	\quad Base Composition at Silent Sites  \\
 
 \subsubsection{Function from Darwin left untranscribed}
-Entries	Entries
+Entries	\quad Entries \\
 
 \subsection{Helperfunctions}
-anticodoncount	Calculate Global Anticodon Usage
-areopts	Optimality Decision for Codons of Custom Genome
-checkCDS	Checks Integrity of CDS Sequence
-CodonProb	Codon Probability table
-CodonProbabilities	Codon Probabilities
-CodonUsage	Table for Codon Usage and Optimality of Codons
-FindHighlyExpressedGenes	Find Highly Expressed Genes				% needs transcriptome data
-NucleotideContent	Nucleotide Content							% needs checking for what it should do
-reversecomplement	Reverse Complement Anticodon
-SetupRA	Relative Synonymous Codon Usage
+anticodoncount	\quad Calculate Global Anticodon Usage \\
+areopts	\quad Optimality Decision for Codons of Custom Genome \\
+checkCDS	Checks \quad Integrity of CDS Sequence \\
+CodonProb	\quad Codon Probability table \\
+CodonProbabilities	\quad Codon Probabilities \\
+CodonUsage	\quad Table for Codon Usage and Optimality of Codons \\
+FindHighlyExpressedGenes	\quad Find Highly Expressed Genes \\			% needs transcriptome data
+NucleotideContent	\quad Nucleotide Content \\							% needs checking for what it should do
+reversecomplement	\quad Reverse Complement Anticodon \\
+SetupRA	\quad Relative Synonymous Codon Usage \\
 
 \subsubsection{Graphical functions}
-plotOCU	Plot of Optimality Score for Codons in a Single Protein
+plotOCU	\quad Plot of Optimality Score for Codons in a Single Protein \\
 
 \subsubsection{3rd party functions}
-movingAverage	Calculating a Moving Average
+movingAverage	\quad Calculating a Moving Average \\
 
 \subsubsection{Obsolete functions}
-countcodonfreq	Count Codon Frequency
+countcodonfreq	\quad Count Codon Frequency \\
 
 \subsubsection{Data Handling}
-mylist	My List of Nucleotide-Sequences and Aminoacid-Sequences
-readfasta	Processed tRNA Containing Fasta File Headers to Count Anticodons
-readintronic	Read tRNA Intronic Gene Count Statistics
-readstats	Read tRNA Gene Count Statistics
-readtRNAout	Read tRNA Gene Count Statistics
-searchfafile	Search and Return a Fasta File Name from Partial Name
+mylist	\quad My List of Nucleotide-Sequences and Aminoacid-Sequences \\
+readfasta	\quad Processed tRNA Containing Fasta File Headers to Count Anticodons \\
+readintronic	\quad Read tRNA Intronic Gene Count Statistics \\
+readstats	\quad Read tRNA Gene Count Statistics \\
+readtRNAout	\quad Read tRNA Gene Count Statistics \\
+searchfafile	\quad Search and Return a Fasta File Name from Partial Name \\
 
 \section{Sampledata}
 
 \subsection{External Data}
-Etef.sample.protein.fasta
-Etef.sample.transcript.fasta
-seq30469.out
+Etef.sample.protein.fasta \quad Selected Teff Protein sequences, matching selected CDS \\
+Etef.sample.transcript.fasta \quad  Selected Teff CDS, closely related to rice sequences \\
+seq30469.out \quad \\
 
 \subsection{Datasets}
-aa\_ac	Aminoacids and Anticodons
-GtRNAdb2species	Viruses, Eukaryota, Archaea, Bacteria Species Names on GtRNAdb2
-Tef	Optimal Codon Table for Eragostis tef Decided on tRNAscan-SE count of tRNA genes in sequenced genome
-veab		Viruses, Eukaryota, Archaea, Bacteria Species File Names on GtRNAdb2
-veabfa	Viruses, Eukaryota, Archaea, Bacteria Species Fasta File Names on GtRNAdb2
+aa\_ac	\quad Aminoacids and Anticodons \\
+GtRNAdb2species	\quad Viruses, Eukaryota, Archaea, Bacteria Species Names on GtRNAdb2 \\
+Tef	\quad Optimal Codon Table for Eragostis tef Decided on tRNAscan-SE count of tRNA genes in sequenced genome \\
+veab		\quad Viruses, Eukaryota, Archaea, Bacteria Species File Names on GtRNAdb2 \\
+veabfa	\quad Viruses, Eukaryota, Archaea, Bacteria Species Fasta File Names on GtRNAdb2 \\
 
 
 
