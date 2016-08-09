@@ -8,7 +8,7 @@ Before the project was set-up the initial task was to gather information for cal
   \lstinputlisting[language=R, breaklines=true]{codes/readstats.R}
   \lstinputlisting[language=HTML, breaklines=true]{codes/Zmays.stats}    
  
-However this code had to be adapted because it is only reading in the tRNA genes with introns. 
+However this code had to be adapted because it is only reading in the tRNA genes with introns. Interestingly, by browsing some of the output data from tRNAscan for other species we discovered some 
 
 \section{text chunk - tRNA database}
 The tRNA genome numbers for eukariotic, bacterial, archaea and one viral genome was extracted from tRNAscan-SE v.1.3 run statistics of the GtRNAdb 2.0 (available at
@@ -34,6 +34,54 @@ Et\_s4372-0.17-1
 ) was truncated, didn't startet with methionine and was not corresponding to the truncated transcript, secondly the number of transcripts matched the number of proteins, but there was one orphan entry on each side (
 Et\_s2692-0.26-1, Et\_s14755-0.7-1
 ), that had to be filled up with the corresponding entry of the other datafile. 
+
+
+\subsection{text chunk - Project}
+The standard genetic code has 61 sense codons that code for 20 amino acids and that are decoded by 
+tRNAs that ‘wobble’, that is some tRNAs can read more than one codon. For example, yeast has 41 
+tRNAs to decode the 61 sense codons. The choice of synonymous codon is not at all random, some 
+codons are used frequently and others are hardly used at all. For this project, you will code several 
+indices of codon usage and apply them to the coding sequences of plants in the grass families. 
+
+For this project you will:\\
+code standard indicies that measure codon usage and bias such as the codon adaptation index 
+(CAI), the tRNA pairing index (tPI) and others \\
+write code for text-based (or graphical-based) visualization of analyses based on codon usage\\
+assess the significance of groups with extreme values of these indices using Enrichment\\
+
+Analysis 
+
+References: A Role for Codon Order in Translation Dynamics. Cannarozzi, Gina et al. Cell, 
+Volume 141 , Issue 2 , 355 - 367
+
+Suggested Languages: R, PERL
+Idea : implement indicies in book chapter plus what came after 
+
+**********************
+
+implemented Foc
+retrieved tRNA database problems: normalization, anomolous values solutions: standardize data
+computed codon usage in tef problems: odd characters in data, mismatch, solution: preprocess data
+sequences in frame: solution: preprocess data
+is implementation of a suffix tree a possibility?
+
+
+
+testing - use the sequences form the original papers and show that you get the same values
+
+CRAN or Bioconductor?
+look at https://cran.r-project.org/doc/manuals/r-release/R-exts.html to write an R package
+bioconductor  https://www.bioconductor.org/developers/how-to/buildingPackagesForBioc/
+
+3 components
+  code
+  testing
+  documentation
+
+start with CAI
+ look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
+ look at what the possibilities are and what parts of the exisiting implementation can be used?
+ if not , reimplement in such a way that it is more flexible 
 
 
 \subsection{Plot OCU demo}

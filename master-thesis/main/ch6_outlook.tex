@@ -23,50 +23,52 @@ Here is an overview on the implemented, the ones which have a void function back
 \midrule
 \textbf{Measures based on reference} \\
 	Fop	Frequency of optimal codons & x	 & & \\
-	CBI	Codon bias index 	& & x &	 \\
-	B / E	Codon usage bias (expression) 	& & & x  \\
-	CEC	Codon-enrichment correlation 	& & & x	 \\
+	\textbf{CBI}	Codon Bias Index	& & x &	 \\
+	\textbf{B} / E	Codon Usage Bias (expression) 	& & & x  \\
+	\textbf{CEC}	Codon-Enrichment Correlation 	& & & x	 \\
 \midrule	
 \textbf{Measures based on the geometric mean} \\
-	P	Codon preference 	& & & x	 \\
-	CAI	Codon adaptation index	& x & &	 \\
-	rCAI	 Relative codon adaptation index	& & & x	 \\
-	RCB	Relative codon usage bias	& & & x	 \\
+	\textbf{P}	Codon Preference 	& & & x	 \\
+	\textbf{CAI}	Codon Adaptation Index	& x & &	 \\ % http://www.ncbi.nlm.nih.gov/pmc/articles/PMC340524/
+	\textbf{rCAI}	 Relative Codon Adaptation Index	& & & x	 \\ % http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880845/
+	\textbf{RCB}	Relative Codon Usage Bias	& & & x	 \\
 	RCA Relative codon adaptation	& & & x	 \\
-	GCB	Iterative codon bias	& & & x	 \\
-	tAI	tRNA adaptation index	& & & x	 \\
+	\textbf{FFT} Autocorrelation	& & & x	 \\
+	\textbf{GCB}	Iterative approach to determining codon bias	& & & x	 \\
+	\textbf{tAI}	tRNA adaptation index	& & & x	 \\
 	nTE	Normalized translational efficiency	& & & x	 \\
 \midrule	
 \textbf{Measures based on deviation from an expected distribution} \\
-	CPB	Codon-preference bias measure	& & & x	 \\
-	MCB	Maximum-likelihood codon bias	& & & x	 \\
+	\textbf{CPB}	Codon-Preference Bias Measure	& & & x	 \\
+	\textbf{MCB}	Maximum-likelihood Codon Bias	& & & x	 \\
 	$B_a$ Bias of an individual amino acid	& & & x	 \\
-	$\chi^2$ Scaled chi squared statistic		& & x &	 \\
-	Ew	Weighted sum of relative entropy	& & & x	 \\
-	SCUO	 Synonymous codon usage order	& & & x	 \\
+	$\chi^2$ Scaled \textbf{chi squared} statistic		& & x &	 \\
+	\textbf{Ew}	Weighted sum of relative entropy	& & & x	 \\
+	\textbf{SCUO}	 Synonymous codon usage order	& & & x	 \\
 \midrule	
 \textbf{Measures focusing on tRNA interaction} \\
-	P1	Influence of tRNA availability	& & & x	 \\
+	\textbf{P1}	Influence of tRNA availability	& & & x	 \\
 	P2	Bias for anticodon–codon interactions of intermediary strength	& & & x	 \\
-	TPI	tRNA-pairing index	& & & x	 \\
+	\textbf{TPI}	tRNA-pairing index	& & & x	 \\
 \midrule	
 \textbf{Measures based on intrinsic properties of codon usage} \\
-	GC3s	 Base composition at silent sites	& x* & &	 \\
-	Nc	Effective number of codons	& x & &	 \\
-	MILC	 Measure independent of length and composition	& & & x	 \\
-	MELP	 MILC Expression Level Prediction	& & & x	 \\
-	ICDI	 Intrinsic codon bias index	& & & x	 \\
-	HK	Multivariate statistical method by Hey and Kliman	& & & x	 \\
-	S2str Strength of mRNA secondary structure	& & & x	 \\
-	ER	Evolutionary rate	& & & x	 \\
+	\textbf{GC3s}	 Base composition at silent sites	& x* & &	 \\
+	\textbf{Nc}	Effective number of codons	& x & &	 \\
+	\textbf{MILC}	 Measure independent of length and composition	& & & x	 \\
+	\textbf{MELP}	 MILC Expression Level Prediction	& & & x	 \\
+	\textbf{ICDI}	 Intrinsic codon bias index	& & & x	 \\
+	\textbf{HK}	Multivariate statistical method by Hey and Kliman	& & & x	 \\
+	\textbf{S2str} Strength of mRNA secondary structure	& & & x	 \\
+	\textbf{ER}	Evolutionary rate	& & & x	 \\
 	v(c)	 Codon volatility	& & & x	 \\
 	PLS	Partial least squares regression	& & & x	 \\
-	SUMBLE	Synonymous codon usage bias maximum-likelihood estimation	& & & x	 \\
-	SEMPPR	Stochastic evolutionary model of protein production rate	& & & x	 \\
+	\textbf{SUMBLE}	Synonymous codon usage bias maximum-likelihood estimation	& & & x	 \\
+	\textbf{SEMPPR}	Stochastic evolutionary model of protein production rate	& & & x	 \\
 	\midrule	
 \textbf{Measures for total codon usage in genomes} \\
 	tot. Codon using		& & & x	 \\
-	$D_{mean}$	Mean dissimilarity index 	& & & x	 \\
+	$D_{mean}$	\textbf{Mean} dissimilarity index 	& & & x	 \\
+	\textbf{BC6}  base composition of 6mers 	& & & x	 \\
 		\midrule	
 \textbf{Indices measuring amino acid usage} \\
 	GRAVY	Grand averages of hydropathy	& & & x	 \\
@@ -79,6 +81,26 @@ Here is an overview on the implemented, the ones which have a void function back
 \end{footnotesize}
 \end{table}
 
+Indices to be Implemented:
+Use from SeqinR
+   
+Implement Indices from the book chapter
+
+
+  Intrinsic Codon Bias
+  HK measure
+  Strength of mRNA secondary structure
+  codon Volatility
+  Evolutionary Rate (ER)
+  stochastic evolutionary model of protein production rate 
+  synonymous codon usage bias maximum-likelihood estimation 
+Genome wide usage
+  Mean dissimilarity index (Dmean)
+  
+Not in the book chapter 
+  base composition of 6mers
+
+review of codon indices http://www.ncbi.nlm.nih.gov/pmc/articles/PMC153734/
 
 
 The table~\ref{tab:CodonBiasIndices} is a floating table showing which indices have already been implemented in statanacoseq.
