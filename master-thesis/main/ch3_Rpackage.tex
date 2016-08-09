@@ -5,7 +5,9 @@ In this chapter we will describe the generation of the R package structure, impl
 \section{Generation of R package}
 The first intention was to generate a package named "statanacoseq" in the linux version of R. The name is pretty long and has not been found to be used as R package name anywhere else, that is screened by google.
 Setting up of the R package has been done with the help of devtools, some few lines of code generate a backbone that then can be filled with the content and basically be packed after having put the first function in to an R file. 
-  \lstinputlisting[language=R, breaklines=true]{codes/demo.R}
+
+  \lstinputlisting[language=R, breaklines=true]{codes/first_R_package.R}
+
 In this case a simple function with misleading name was countcodonfreq but was used to check the 'validated' fasta files by printing out the fraction of codons to aminoacids for the nucleotide and aminoacids with the same entry name. 
   \lstinputlisting[language=R, breaklines=true]{codes/countcodonfreq.R}
 

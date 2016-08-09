@@ -1,5 +1,5 @@
 \chapter{Setup of data and project}
-In this chapter we will see some examples of tables and figures.
+In this chapter we will discuss the setup of the project.
 
 \section{Getting familiar with the data}
 Before the project was set-up the initial task was to gather information for calculating one of the first defined and most basic codon bias index called \hyperlink{function:Fop}{frequency of optimal codons (Fop)}. The optimality of a codon can be estimated by the usage in the given gene, the transcriptome or by accessing the numbers of tRNA genes found in the genome. As we have already the data of tRNA genes for the teff genome available, this was the choice to work with and to import the information for closely related species for mays and millet.
@@ -12,7 +12,7 @@ However this code had to be adapted because it is only reading in the tRNA genes
 
 \section{text chunk - tRNA database}
 The tRNA genome numbers for eukariotic, bacterial, archaea and one viral genome was extracted from tRNAscan-SE v.1.3 run statistics of the GtRNAdb 2.0 (available at
-\href{http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/}{Genomic tRNA Database 2.0}, http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/).[Chan PP et al. 2016]
+\href{http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/}{Genomic tRNA Database 2.0}, http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/). \cite{Chan2016}[Chan PP et al. 2016]
 
 To decide on optimal codons the number of genes for the given anticodon was divided by the maximal number of genes for a anticodon for the same aminoacid to give fraction to optimal codon. The codon was accepted as optimal if this fraction was 1. In a list for every genome with available run statistic data, a frame with aminoacid, codon, number of genes, fraction to optimal codon, fraction to all codons, and the decision if it is a optimal codon was stored for the four superkingdoms seperately.
  
