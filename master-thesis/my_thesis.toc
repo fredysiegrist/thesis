@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {4.4.1}Indices}{16}{subsection.4.4.1}
 \contentsline {subsubsection}{Intermediator functions for indices}{16}{subsection.4.4.1}
 \contentsline {subsubsection}{Void indices}{16}{subsection.4.4.1}
-\contentsline {subsubsection}{Function from Darwin left untranscribed}{16}{subsection.4.4.1}
+\contentsline {subsubsection}{Database Function from Darwin left untranscribed}{16}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Helperfunctions}{16}{subsection.4.4.2}
 \contentsline {subsubsection}{Graphical functions}{17}{subsection.4.4.2}
 \contentsline {subsubsection}{3rd party functions}{17}{subsection.4.4.2}
