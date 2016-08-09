@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  8 AUG 2016 17:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  9 AUG 2016 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,7 +1581,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<images/Logo_University_Bern.png, id=159, 1027.84pt x 1027.84pt>
+<images/Logo_University_Bern.png, id=163, 1027.84pt x 1027.84pt>
 File: images/Logo_University_Bern.png Graphic file (type png)
 
 <use images/Logo_University_Bern.png>
@@ -1743,15 +1743,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 
-])
-Overfull \hbox (344.90347pt too wide) in paragraph at lines 17--46
+]
+Overfull \hbox (344.90347pt too wide) in paragraph at lines 17--18
 \T1/phv/m/n/10.95 (-20) the eval-u-a-tion of its prop-er-ties [[]].
  []
 
-[2]
+
+LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 22.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3]
 \openout2 = `main/ch2_setup.aux'.
 
- (./main/ch2_setup.tex
+ (./main/ch2_setup.tex [4
+
+
+
+]
 Chapter 1.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
@@ -1775,31 +1786,27 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
 
-[3
-
-
-
-]) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[5]) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-(./codes/Zmays.stats [4])
+(./codes/Zmays.stats [6])
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [5]
-<images/fig1_plotOCU.jpg, id=422, 673.51625pt x 673.51625pt>
+ [7]
+<images/fig1_plotOCU.jpg, id=436, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
 Package pdftex.def Info: images/fig1_plotOCU.jpg used on input line 42.
 (pdftex.def)             Requested size: 209.12683pt x 209.12701pt.
-) [6] [7 <./images/fig1_plotOCU.jpg>]
+) [8] [9 <./images/fig1_plotOCU.jpg>]
 \openout2 = `main/ch3_Rpackage.aux'.
 
 
-(./main/ch3_Rpackage.tex [8
+(./main/ch3_Rpackage.tex [10
 
 
 
@@ -1808,13 +1815,13 @@ Chapter 2.
 (./codes/demo.R) (./codes/countcodonfreq.R)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [11]
 Overfull \hbox (116.47697pt too wide) in paragraph at lines 16--17
 \T1/phv/m/n/10.95 (-20) con-trol and to make it avail-able for re-vi-sion. The 
 ori-gin is placed at [][]https://github.com/fredysiegrist/statanacoseq.git[][]
  []
 
-) [10]
+) [12]
 \openout2 = `main/ch4_transcription.aux'.
 
  (./main/ch4_transcription.tex
@@ -1822,12 +1829,12 @@ Chapter 3.
 (./codes/ComputeNEC.R
 Underfull \vbox (badness 3690) has occurred while \output is active []
 
- [11
+ [13
 
 
 
 ]))
-[12]
+[14]
 \openout2 = `main/ch5_vignette.aux'.
 
  (./main/ch5_vignette.tex
@@ -1850,7 +1857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--31
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [15
 
 
 
@@ -1877,7 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--54
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [16]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -1905,12 +1912,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [17]
 Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-) [16]
+) [18]
 \openout2 = `main/ch6_outlook.aux'.
 
  (./main/ch6_outlook.tex
@@ -1941,24 +1948,24 @@ LaTeX Warning: Float too large for page by 99.95691pt on input line 84.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
+ [19
 
 
 
 ])
-[18] [19]
+[20] [21]
 \openout2 = `main/ch7_installation.aux'.
 
- (./main/ch7_installation.tex [20
+ (./main/ch7_installation.tex [22
 
 
 
 ]
 Chapter 6.
-(./codes/install.R) (./codes/demo.R)) [21]
+(./codes/install.R) (./codes/demo.R)) [23]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex [22
+ (./tail/appendix.tex [24
 
 
 
@@ -1986,12 +1993,6 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (./codes/CodonIndices
 Underfull \vbox (badness 6141) has occurred while \output is active []
 
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2001,8 +2002,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]))
-[29] [30
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]))
+[31] [32
 
 
 ]
@@ -2013,18 +2020,18 @@ Overfull \hbox (206.99298pt too wide) in paragraph at lines 11--17
 []
  []
 
-)) [31
+)) [33
 
 
 
 ]
 \openout2 = `tail/cv.aux'.
 
- (./tail/cv.tex [32
+ (./tail/cv.tex [34
 
 
 
-] <tail/cv.pdf, id=959, 597.50829pt x 845.0471pt>
+] <tail/cv.pdf, id=972, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf>
@@ -2035,7 +2042,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<tail/cv.pdf, id=962, page=1, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=975, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2058,8 +2065,8 @@ File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf, page 1>
 Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [33 <./tail/cv.pdf>]
-<tail/cv.pdf, id=983, page=2, 597.50829pt x 845.0471pt>
+ [35 <./tail/cv.pdf>]
+<tail/cv.pdf, id=996, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2074,7 +2081,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[34 <./tail/cv.pdf>] <tail/cv.pdf, id=993, page=3, 597.50829pt x 845.0471pt>
+[36 <./tail/cv.pdf>] <tail/cv.pdf, id=1006, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2089,7 +2096,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page3 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[35 <./tail/cv.pdf>])
+[37 <./tail/cv.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./my_thesis.aux (./head/dedication.aux)
@@ -2099,22 +2106,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 ) (./tail/appendix.aux) (./tail/biblio.aux) (./tail/cv.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package rerunfilecheck Info: File `my_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: E0381B4633F78EBA58DDBD109762D482;2491.
 
 
-Package rerunfilecheck Warning: File `my_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `my_thesis.out':
-(rerunfilecheck)             Before: A4E05A063DFDAD8643284F0EC45FA083;2412
-(rerunfilecheck)             After:  1102ACC2DF9878ACC59A5CDF6E57401A;2409.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28639 strings out of 494474
- 464980 string characters out of 6172703
- 1047409 words of memory out of 5000000
- 30368 multiletter control sequences out of 15000+600000
+ 28644 strings out of 494474
+ 465030 string characters out of 6172703
+ 1047446 words of memory out of 5000000
+ 30370 multiletter control sequences out of 15000+600000
  133990 words of font info for 257 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  58i,18n,79p,1229b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2131,10 +2135,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (53 pages, 554428 bytes).
+Output written on my_thesis.pdf (55 pages, 557236 bytes).
 PDF statistics:
- 1163 PDF objects out of 1200 (max. 8388607)
- 1075 compressed objects within 11 object streams
- 609 named destinations out of 1000 (max. 500000)
- 43877 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1177 PDF objects out of 1200 (max. 8388607)
+ 1087 compressed objects within 11 object streams
+ 612 named destinations out of 1000 (max. 500000)
+ 43885 words of extra memory for PDF output out of 51595 (max. 10000000)
 

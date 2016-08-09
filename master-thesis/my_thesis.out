@@ -6,33 +6,34 @@
 \BOOKMARK [0][-]{chapter*.10}{Introduction}{}% 6
 \BOOKMARK [1][-]{section.0.1}{Aim}{chapter*.10}% 7
 \BOOKMARK [1][-]{section.0.2}{Teff genome}{chapter*.10}% 8
-\BOOKMARK [0][-]{chapter.1}{Setup of data and project}{}% 9
-\BOOKMARK [1][-]{section.1.1}{Getting familiar with the data}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.1}{read tRNA stats and decide on optimality of a codon}{section.1.1}% 11
-\BOOKMARK [1][-]{section.1.2}{text chunk - tRNA database}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.2.1}{Plot OCU demo}{section.1.2}% 13
-\BOOKMARK [0][-]{chapter.2}{R package setup and maintenance}{}% 14
-\BOOKMARK [1][-]{section.2.1}{Generation of R package}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.1.1}{Maintenance with R Studio}{section.2.1}% 16
-\BOOKMARK [2][-]{subsection.2.1.2}{Publishing on GitHub - Description of versions}{section.2.1}% 17
-\BOOKMARK [0][-]{chapter.3}{Transcription of Darwin Code}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Transcription of Darwin functions}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{R environement adaptation}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Vignette}{}% 21
-\BOOKMARK [1][-]{section.4.1}{statanacoseq}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Demos}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{Tests}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.4}{Functions}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.4.1}{Indices}{section.4.4}% 26
-\BOOKMARK [2][-]{subsection.4.4.2}{Helperfunctions}{section.4.4}% 27
-\BOOKMARK [1][-]{section.4.5}{Sampledata}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.5.1}{External Data}{section.4.5}% 29
-\BOOKMARK [2][-]{subsection.4.5.2}{Datasets}{section.4.5}% 30
-\BOOKMARK [0][-]{chapter.5}{Outlook}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Codon Bias Indices}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Biological meaning and statistics}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{Package development}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 36
-\BOOKMARK [0][-]{appendix*.14}{Bibliography}{}% 37
-\BOOKMARK [0][-]{section*.15}{Curriculum Vitae}{}% 38
+\BOOKMARK [1][-]{section.0.3}{Biological aspects of Codon usage}{chapter*.10}% 9
+\BOOKMARK [0][-]{chapter.1}{Setup of data and project}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Getting familiar with the data}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.1}{read tRNA stats and decide on optimality of a codon}{section.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{text chunk - tRNA database}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.2.1}{Plot OCU demo}{section.1.2}% 14
+\BOOKMARK [0][-]{chapter.2}{R package setup and maintenance}{}% 15
+\BOOKMARK [1][-]{section.2.1}{Generation of R package}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{Maintenance with R Studio}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{Publishing on GitHub - Description of versions}{section.2.1}% 18
+\BOOKMARK [0][-]{chapter.3}{Transcription of Darwin Code}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Transcription of Darwin functions}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{R environement adaptation}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Vignette}{}% 22
+\BOOKMARK [1][-]{section.4.1}{statanacoseq}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Demos}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Tests}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{Functions}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.1}{Indices}{section.4.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.2}{Helperfunctions}{section.4.4}% 28
+\BOOKMARK [1][-]{section.4.5}{Sampledata}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.5.1}{External Data}{section.4.5}% 30
+\BOOKMARK [2][-]{subsection.4.5.2}{Datasets}{section.4.5}% 31
+\BOOKMARK [0][-]{chapter.5}{Outlook}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Codon Bias Indices}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Biological meaning and statistics}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{Package development}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 36
+\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 37
+\BOOKMARK [0][-]{appendix*.14}{Bibliography}{}% 38
+\BOOKMARK [0][-]{section*.15}{Curriculum Vitae}{}% 39

@@ -7,40 +7,41 @@
 \contentsline {chapter}{Introduction}{1}{chapter*.10}
 \contentsline {section}{\numberline {0.1}Aim}{1}{section.0.1}
 \contentsline {section}{\numberline {0.2}Teff genome}{2}{section.0.2}
-\contentsline {chapter}{\numberline {1}Setup of data and project}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Getting familiar with the data}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{3}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Plot OCU demo}{6}{subsection.1.2.1}
-\contentsline {chapter}{\numberline {2}R package setup and maintenance}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Generation of R package}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Maintenance with R Studio}{10}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Publishing on GitHub - Description of versions}{10}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}Transcription of Darwin Code}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Transcription of Darwin functions}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}R environement adaptation}{11}{section.3.2}
-\contentsline {chapter}{\numberline {4}Vignette}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}statanacoseq}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Demos}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Tests}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}Functions}{14}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Indices}{14}{subsection.4.4.1}
-\contentsline {subsubsection}{Intermediator functions for indices}{14}{subsection.4.4.1}
-\contentsline {subsubsection}{Void indices}{14}{subsection.4.4.1}
-\contentsline {subsubsection}{Function from Darwin left untranscribed}{14}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Helperfunctions}{14}{subsection.4.4.2}
-\contentsline {subsubsection}{Graphical functions}{15}{subsection.4.4.2}
-\contentsline {subsubsection}{3rd party functions}{15}{subsection.4.4.2}
-\contentsline {subsubsection}{Obsolete functions}{15}{subsection.4.4.2}
-\contentsline {subsubsection}{Data Handling}{15}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Sampledata}{15}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}External Data}{15}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Datasets}{16}{subsection.4.5.2}
-\contentsline {chapter}{\numberline {5}Outlook}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Codon Bias Indices}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Package development}{18}{section.5.3}
-\contentsline {chapter}{\numberline {6}R package on GitHub}{21}{chapter.6}
-\contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{23}{appendix.A}
-\contentsline {chapter}{Bibliography}{31}{appendix*.14}
-\contentsline {chapter}{Curriculum Vitae}{33}{section*.15}
+\contentsline {section}{\numberline {0.3}Biological aspects of Codon usage}{2}{section.0.3}
+\contentsline {chapter}{\numberline {1}Setup of data and project}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Getting familiar with the data}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{5}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Plot OCU demo}{8}{subsection.1.2.1}
+\contentsline {chapter}{\numberline {2}R package setup and maintenance}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Generation of R package}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Maintenance with R Studio}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Publishing on GitHub - Description of versions}{12}{subsection.2.1.2}
+\contentsline {chapter}{\numberline {3}Transcription of Darwin Code}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Transcription of Darwin functions}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}R environement adaptation}{13}{section.3.2}
+\contentsline {chapter}{\numberline {4}Vignette}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}statanacoseq}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Demos}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Tests}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Functions}{16}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Indices}{16}{subsection.4.4.1}
+\contentsline {subsubsection}{Intermediator functions for indices}{16}{subsection.4.4.1}
+\contentsline {subsubsection}{Void indices}{16}{subsection.4.4.1}
+\contentsline {subsubsection}{Function from Darwin left untranscribed}{16}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Helperfunctions}{16}{subsection.4.4.2}
+\contentsline {subsubsection}{Graphical functions}{17}{subsection.4.4.2}
+\contentsline {subsubsection}{3rd party functions}{17}{subsection.4.4.2}
+\contentsline {subsubsection}{Obsolete functions}{17}{subsection.4.4.2}
+\contentsline {subsubsection}{Data Handling}{17}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Sampledata}{17}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}External Data}{17}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Datasets}{18}{subsection.4.5.2}
+\contentsline {chapter}{\numberline {5}Outlook}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Codon Bias Indices}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Package development}{20}{section.5.3}
+\contentsline {chapter}{\numberline {6}R package on GitHub}{23}{chapter.6}
+\contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{25}{appendix.A}
+\contentsline {chapter}{Bibliography}{33}{appendix*.14}
+\contentsline {chapter}{Curriculum Vitae}{35}{section*.15}
