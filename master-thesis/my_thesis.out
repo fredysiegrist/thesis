@@ -11,7 +11,7 @@
 \BOOKMARK [1][-]{section.1.1}{Getting familiar with the data}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.1.1}{read tRNA stats and decide on optimality of a codon}{section.1.1}% 12
 \BOOKMARK [1][-]{section.1.2}{text chunk - tRNA database}{chapter.1}% 13
-\BOOKMARK [2][-]{subsection.1.2.1}{text chunk - Project}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.1}{text chunk - Project notes}{section.1.2}% 14
 \BOOKMARK [2][-]{subsection.1.2.2}{Plot OCU demo}{section.1.2}% 15
 \BOOKMARK [0][-]{chapter.2}{R package setup and maintenance}{}% 16
 \BOOKMARK [1][-]{section.2.1}{Generation of R package}{chapter.2}% 17
@@ -36,5 +36,5 @@
 \BOOKMARK [1][-]{section.5.3}{Package development}{chapter.5}% 36
 \BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 37
 \BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 38
-\BOOKMARK [0][-]{section*.14}{Bibliography}{}% 39
-\BOOKMARK [0][-]{section*.15}{Curriculum Vitae}{}% 40
+\BOOKMARK [0][-]{section*.15}{Bibliography}{}% 39
+\BOOKMARK [0][-]{section*.16}{Curriculum Vitae}{}% 40

@@ -11,8 +11,8 @@
 \contentsline {chapter}{\numberline {1}Setup of data and project}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Getting familiar with the data}{5}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{5}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}text chunk - Project}{9}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{8}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{10}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{10}{subsection.1.2.2}
 \contentsline {chapter}{\numberline {2}R package setup and maintenance}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Generation of R package}{13}{section.2.1}
@@ -44,5 +44,5 @@
 \contentsline {section}{\numberline {5.3}Package development}{22}{section.5.3}
 \contentsline {chapter}{\numberline {6}R package on GitHub}{25}{chapter.6}
 \contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{27}{appendix.A}
-\contentsline {chapter}{Bibliography}{35}{section*.14}
-\contentsline {chapter}{Curriculum Vitae}{35}{section*.15}
+\contentsline {chapter}{Bibliography}{35}{section*.15}
+\contentsline {chapter}{Curriculum Vitae}{35}{section*.16}

@@ -17,6 +17,17 @@ However this code had to be adapted because it is only reading in the tRNA genes
 \label{fig:byrow} 
 \end{figure}
 
+If we plot the log values of the tRNA gene count and normalize by species (column) then we can see that some species have very low numbers of certain codons that is usually compensated by using another block of codons that are rare in the other kingdoms. We also observe some species that have a high number of tRNAs where the isoaccepter remains unknown (codon 65).
+
+
+\begin{figure}[tb] 
+\centering 
+\includegraphics[width=0.5\columnwidth]{logallfa_col} 
+\caption[Heat map for log(tRNA counts)]{Heat map of logged(tRNA gene counts) normalized per column in \hyperlink{data:veab}{all species}}
+\label{fig:bycol} 
+\end{figure}
+
+
 \section{text chunk - tRNA database}
 The tRNA genome numbers for eukariotic, bacterial, archaea and one viral genome was extracted from tRNAscan-SE v.1.3 run statistics of the GtRNAdb 2.0 (available at
 \href{http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/}{Genomic tRNA Database 2.0}, http://gtrnadb.ucsc.edu/GtRNAdb2/genomes/). \cite{Chan2016}[Chan PP et al. 2016]
@@ -43,28 +54,7 @@ Et\_s2692-0.26-1, Et\_s14755-0.7-1
 ), that had to be filled up with the corresponding entry of the other datafile. 
 
 
-\subsection{text chunk - Project}
-The standard genetic code has 61 sense codons that code for 20 amino acids and that are decoded by 
-tRNAs that ‘wobble’, that is some tRNAs can read more than one codon. For example, yeast has 41 
-tRNAs to decode the 61 sense codons. The choice of synonymous codon is not at all random, some 
-codons are used frequently and others are hardly used at all. For this project, you will code several 
-indices of codon usage and apply them to the coding sequences of plants in the grass families. 
-
-For this project you will:\\
-code standard indicies that measure codon usage and bias such as the codon adaptation index 
-(CAI), the tRNA pairing index (tPI) and others \\
-write code for text-based (or graphical-based) visualization of analyses based on codon usage\\
-assess the significance of groups with extreme values of these indices using Enrichment\\
-
-Analysis 
-
-References: A Role for Codon Order in Translation Dynamics. Cannarozzi, Gina et al. Cell, 
-Volume 141 , Issue 2 , 355 - 367
-
-Suggested Languages: R, PERL
-Idea : implement indicies in book chapter plus what came after 
-
-**********************
+\subsection{text chunk - Project notes}
 
 implemented Foc
 retrieved tRNA database problems: normalization, anomolous values solutions: standardize data

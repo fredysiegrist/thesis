@@ -8,7 +8,12 @@
 %\markboth{Abstract}{Abstract}
 \addcontentsline{toc}{chapter}{Abstract (English / Deutsch)} % adds an entry to the table of contents
 % put your text here
-\lipsum[1-2]
+The basic idea of this project was to implement codon bias indicies that have been listed before \cite{BinderCh13} together with important indices that came after and improvements. 
+The standard genetic code, as we know it for most of the species, has 61 sense codons translating into 20 amino acids. These codons are usually decoded by a much larger number of different tRNAs, that in addition can ‘wobble’, that is some tRNAs are used to read more than one codon. For example, yeast has 41 tRNAs to decode its 61 sense codons. The choice of synonymous codon is not at all random, some codons are used frequently and others are hardly used at all \cite{Cannarozzi2010}. In this project, we implemented several function that compute indices of codon usage and applied them to coding sequences of the grass plant \textit{Eragostis tef}. We set up an R project based on another package seqinr and transcribed the code for standard indicies that measure codon usage and bias such as the codon adaptation index (CAI), the tRNA pairing index (tPI) and others from a code-library called CodonIndices of the language Darwin.\\
+First functions were written for text- and graphical-based visualization of analyses based on codon usage that can be asses by demonstrations of the package. Further work may assess the significance of groups with extreme values of these indices using Enrichment.\\
+
+\lipsum[1]
+
 \vskip0.5cm
 Key words: 
 %put your text here
