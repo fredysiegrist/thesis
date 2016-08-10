@@ -44,5 +44,5 @@
 \contentsline {section}{\numberline {5.3}Package development}{22}{section.5.3}
 \contentsline {chapter}{\numberline {6}R package on GitHub}{25}{chapter.6}
 \contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{27}{appendix.A}
-\contentsline {chapter}{Bibliography}{35}{section*.13}
-\contentsline {chapter}{Curriculum Vitae}{35}{section*.14}
+\contentsline {chapter}{Bibliography}{35}{section*.14}
+\contentsline {chapter}{Curriculum Vitae}{35}{section*.15}

@@ -2,13 +2,20 @@
 In this chapter we will discuss the setup of the project.
 
 \section{Getting familiar with the data}
-Before the project was set-up the initial task was to gather information for calculating one of the first defined and most basic codon bias index called \hyperlink{function:Fop}{frequency of optimal codons (Fop)}. The optimality of a codon can be estimated by the usage in the given gene, the transcriptome or by accessing the numbers of tRNA genes found in the genome. As we have already the data of tRNA genes for the teff genome available, this was the choice to work with and to import the information for closely related species for mays and millet.
+Before the project was set-up the initial task was to gather information for calculating one of the first defined and most basic codon bias index called \hyperlink{function:Fop}{frequency of optimal codons (Fop)}. The optimality of a codon can be estimated by the usage in the given gene, the transcriptome or by accessing the numbers of tRNA genes found in the genome. As we have already the \hyperlink{data:tRNAlist}{data of tRNA genes for the teff genome} available, this was the choice to work with and to import the information for closely related species for mays and millet.
 
 \subsection{read tRNA stats and decide on optimality of a codon}
   \lstinputlisting[language=R, breaklines=true]{codes/readstats.R}
   \lstinputlisting[language=HTML, breaklines=true]{codes/Zmays.stats}    
  
-However this code had to be adapted because it is only reading in the tRNA genes with introns. Interestingly, by browsing some of the output data from tRNAscan for other species we discovered some 
+However this code had to be adapted because it is only reading in the tRNA genes with introns. Interestingly, by browsing some of the output data from tRNAscan for other species we discovered some that have a huge amount of the alternative usage of the opal stop codon "UGA" that is messing up with the display of the overview in a hierarchical plot for all the tRNA numbers even when standardized for each tRNA, we can see that some of the species show a much higher total number of tRNAs. 
+
+\begin{figure}[tb] 
+\centering 
+\includegraphics[width=0.5\columnwidth]{byrow} 
+\caption[Heat map for tRNA counts]{Heat map of tRNA gene counts normalized per row in \hyperlink{data:veab}{all species}}
+\label{fig:byrow} 
+\end{figure}
 
 \section{text chunk - tRNA database}
 The tRNA genome numbers for eukariotic, bacterial, archaea and one viral genome was extracted from tRNAscan-SE v.1.3 run statistics of the GtRNAdb 2.0 (available at
