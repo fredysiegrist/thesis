@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {0.1}Aim}{1}{section.0.1}
 \contentsline {section}{\numberline {0.2}Teff genome}{2}{section.0.2}
 \contentsline {section}{\numberline {0.3}Biological aspects of Codon usage}{2}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}Genetic Code}{3}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.1}Genetic Code}{4}{subsection.0.3.1}
 \contentsline {chapter}{\numberline {1}Setup of data and project}{7}{chapter.1}
 \contentsline {section}{\numberline {1.1}Getting familiar with the data}{7}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{7}{subsection.1.1.1}

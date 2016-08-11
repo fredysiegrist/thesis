@@ -55,36 +55,26 @@ Et\_s2692-0.26-1, Et\_s14755-0.7-1
 
 
 \subsection{text chunk - Project notes}
+The first index to be implemented was the frequency of optimal codons. When the decision on which codons are optimal is made, the calculation of this index is quite basic. The decision can be made by taking the codon usage of the gene alone or the full genome or what we intended to implement first was to make the decision on the availability of tRNAs estimated from the number of tRNA genes that we find in the genome of \textit{E. tef}. For generalization of the function we scanned available information on tRNA gene counts from a public database. However, the retrieved tRNA database turned out to make some problems: \\
+Some of the species had a much higher number of tRNA genes, so that a normalization was necessary to get an overview on the used codons. %, anomolous values solutions: standardize data \\
+% computed codon usage in tef problems: odd characters in data, mismatch, solution: preprocess data
+% sequences in frame: solution: preprocess data
+%is implementation of a suffix tree a possibility?
 
-implemented Foc
-retrieved tRNA database problems: normalization, anomolous values solutions: standardize data
-computed codon usage in tef problems: odd characters in data, mismatch, solution: preprocess data
-sequences in frame: solution: preprocess data
-is implementation of a suffix tree a possibility?
+% testing - use the sequences form the original papers and show that you get the same values
 
+The project is based on three pillars, namely the code itself, the testing functions and the documentation, including demonstration scripts.
 
-
-testing - use the sequences form the original papers and show that you get the same values
-
-CRAN or Bioconductor?
-look at https://cran.r-project.org/doc/manuals/r-release/R-exts.html to write an R package
-bioconductor  https://www.bioconductor.org/developers/how-to/buildingPackagesForBioc/
-
-3 components
-  code
-  testing
-  documentation
-
-start with CAI
- look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
- look at what the possibilities are and what parts of the exisiting implementation can be used?
- if not , reimplement in such a way that it is more flexible 
+%start with CAI
+% look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
+% look at what the possibilities are and what parts of the exisiting implementation can be used?
+% if not , reimplement in such a way that it is more flexible 
 
 
 \subsection{Plot OCU demo}
 \begin{figure}[tb] 
 \centering 
 \includegraphics[width=0.9\columnwidth]{fig1_plotOCU} 
-\caption[A sample figure from demo plotOCU]{A sample figure (from plot OCU \emph{demo(plot(OCU)}, of statanacoseq, got from \url{https://github.com/fredysiegrist/statanacoseq}).}
+\caption[A sample figure from demo plotOCU]{A sample figure (from plot OCU \emph{demo(plotOCU)}, of statanacoseq, got from \url{https://github.com/fredysiegrist/statanacoseq}) shwoing the optimality score of each codon used for coding Similar to Eukaryotic peptide chain release factor subunit 1-3 (eRF1-3) gene of teff.}
 \label{fig:plotOCU} 
 \end{figure}
