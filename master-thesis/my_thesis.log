@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  11 AUG 2016 08:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  11 AUG 2016 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2016,6 +2016,9 @@ Chapter 5.
 
 LaTeX Warning: Citation `BinderCh13' on page 23 undefined on input line 7.
 
+
+LaTeX Warning: Citation `Jansen2003' on page 23 undefined on input line 7.
+
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 14.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2026,6 +2029,8 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 14.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 71.
 
 Overfull \hbox (52.97318pt too wide) in paragraph at lines 14--82
 [][]
@@ -2202,11 +2207,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28730 strings out of 494474
- 466844 string characters out of 6172703
- 1047415 words of memory out of 5000000
- 30402 multiletter control sequences out of 15000+600000
- 133990 words of font info for 257 fonts, out of 8000000 for 9000
+ 28743 strings out of 494474
+ 466991 string characters out of 6172703
+ 1047423 words of memory out of 5000000
+ 30406 multiletter control sequences out of 15000+600000
+ 137508 words of font info for 263 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  58i,18n,79p,1411b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
@@ -2222,10 +2227,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (57 pages, 2748156 bytes).
+Output written on my_thesis.pdf (57 pages, 2747855 bytes).
 PDF statistics:
  1263 PDF objects out of 1440 (max. 8388607)
  1161 compressed objects within 12 object streams
  645 named destinations out of 1000 (max. 500000)
- 43916 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48012 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {4.5.2}Datasets}{22}{subsection.4.5.2}
 \contentsline {chapter}{\numberline {5}Outlook}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Codon Bias Indices}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{24}{section.5.2}
+\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{23}{section.5.2}
 \contentsline {section}{\numberline {5.3}Package development}{24}{section.5.3}
 \contentsline {chapter}{\numberline {6}R package on GitHub}{27}{chapter.6}
 \contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{29}{appendix.A}

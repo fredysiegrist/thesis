@@ -4,7 +4,7 @@ In this chapter we will give a brief overview on what Indices are meant to be im
 
 \section{Codon Bias Indices}
 There are dozens of codon bias indices that yet have to be implemented in the package. The original Darwin code has alredy defined some of the most wanted indices yet to be implemented. 
-Here is an overview on the implemented, the ones which have a void function backbone and the non-implemented functions {tab:CodonBiasIndices}. The indices are taken from a review \cite{BinderCh13}.
+Here is an overview on the implemented, the ones which have a void function backbone and the non-implemented functions {tab:CodonBiasIndices}. The indices are taken from a review \cite{BinderCh13} and can be found in other reviews of codon indices \cite{Jansen2003}.
 
 \begin{table}[tb]
 \begin{footnotesize}
@@ -60,15 +60,15 @@ Here is an overview on the implemented, the ones which have a void function back
 	\textbf{HK}	Multivariate statistical method by Hey and Kliman	& & & x	 \\
 	\textbf{S2str} Strength of mRNA secondary structure	& & & x	 \\
 	\textbf{ER}	Evolutionary rate	& & & x	 \\
-	v(c)	 Codon volatility	& & & x	 \\
+	\textbf{v(c)}	 Codon volatility	& & & x	 \\
 	PLS	Partial least squares regression	& & & x	 \\
 	\textbf{SUMBLE}	Synonymous codon usage bias maximum-likelihood estimation	& & & x	 \\
 	\textbf{SEMPPR}	Stochastic evolutionary model of protein production rate	& & & x	 \\
 	\midrule	
-\textbf{Measures for total codon usage in genomes} \\
+\textbf{Measures for total codon usage - genome wide} \\
 	tot. Codon using		& & & x	 \\
 	$D_{mean}$	\textbf{Mean} dissimilarity index 	& & & x	 \\
-	\textbf{BC6}  base composition of 6mers 	& & & x	 \\
+	\textbf{BC6}  base composition of 6mers \textit{(new)} 	& & & x	 \\
 		\midrule	
 \textbf{Indices measuring amino acid usage} \\
 	GRAVY	Grand averages of hydropathy	& & & x	 \\
@@ -80,28 +80,6 @@ Here is an overview on the implemented, the ones which have a void function back
 \end{tabular}
 \end{footnotesize}
 \end{table}
-
-Indices to be Implemented:
-Use from SeqinR
-   
-Implement Indices from the book chapter
-
-
-  Intrinsic Codon Bias
-  HK measure
-  Strength of mRNA secondary structure
-  codon Volatility
-  Evolutionary Rate (ER)
-  stochastic evolutionary model of protein production rate 
-  synonymous codon usage bias maximum-likelihood estimation 
-Genome wide usage
-  Mean dissimilarity index (Dmean)
-  
-Not in the book chapter 
-  base composition of 6mers
-
-review of codon indices http://www.ncbi.nlm.nih.gov/pmc/articles/PMC153734/
-
 
 The table~\ref{tab:CodonBiasIndices} is a floating table showing which indices have already been implemented in statanacoseq.
 
