@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{5}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}text chunk - tRNA database}{8}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{10}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{11}{subsection.1.2.2}
 \contentsline {chapter}{\numberline {2}R package setup and maintenance}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Generation of R package}{13}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Maintenance with R Studio}{14}{subsection.2.1.1}
