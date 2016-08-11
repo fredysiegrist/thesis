@@ -22,3 +22,16 @@ The ribosome is coordinating the translation from messenger RNA (mRNA) to protei
 For estimation of the codon bias we can compute codon usage bu measuring the bias to use adaptive codons for example with the \hyperlink{function:CAI}{Codon Adaptation Index (CAI)} that is implemented in our code. The \hyperlink{function:RA}{relative adaptiveness (RA)} has therby be calculated form a seperate set of sequences, usually from the usage of highly expressed genes (codon fitness values). For the moment that is the users task, but may be decided on gene expression data in the future in our package. In contrast, the 
 \hyperlink{function:NEC}{Number of effective Codons (NEC)} in our package mesures only the degree of deviation from an uniform codon usage based on basic statistics, regardeless of which codons are overrepresented \cite{Suzuki2016}.
 Morover the package could be expanded in the future to compute additional indices such as the S value, that measures the strength of selection for codon adaptation (S), to perform within-group correspondence analysis (WCA) of codon usage, give information on replication strand skew analysis, the GC skew index (GCSI), single statisitics (S) or PCA to estimate the relative selection strength within a genome.
+
+\subsection{Genetic Code}
+Here is shown a table with the standard genetic code (eg. \textit{E. coli}), generated with the first of the following functions:  
+  \lstinputlisting[language=R, breaklines=true]{codes/geneticcode.R}
+
+\begin{figure}[tb] 
+\centering 
+\includegraphics[width=0.9\columnwidth]{standard_genetic_code} 
+\caption[Genetic code table]{Table with standard genetic code}
+\label{fig:sgencod} 
+\end{figure}
+
+
