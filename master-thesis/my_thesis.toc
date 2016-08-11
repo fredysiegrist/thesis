@@ -9,41 +9,41 @@
 \contentsline {section}{\numberline {0.2}Teff genome}{2}{section.0.2}
 \contentsline {section}{\numberline {0.3}Biological aspects of Codon usage}{2}{section.0.3}
 \contentsline {subsection}{\numberline {0.3.1}Genetic Code}{3}{subsection.0.3.1}
-\contentsline {chapter}{\numberline {1}Setup of data and project}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Getting familiar with the data}{5}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{5}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{11}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}R package setup and maintenance}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Generation of R package}{13}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Maintenance with R Studio}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Publishing on GitHub - Description of versions}{14}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}Transcription of Darwin Code}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Transcription of Darwin functions}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}R environement adaptation}{17}{section.3.2}
-\contentsline {chapter}{\numberline {4}Vignette}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}statanacoseq}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Demos}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Tests}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Functions}{20}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Indices}{20}{subsection.4.4.1}
-\contentsline {subsubsection}{Intermediator functions for indices}{20}{subsection.4.4.1}
-\contentsline {subsubsection}{Void indices}{20}{subsection.4.4.1}
-\contentsline {subsubsection}{Database Function from Darwin left untranscribed}{20}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Helperfunctions}{20}{subsection.4.4.2}
-\contentsline {subsubsection}{Graphical functions}{21}{subsection.4.4.2}
-\contentsline {subsubsection}{3rd party functions}{21}{subsection.4.4.2}
-\contentsline {subsubsection}{Obsolete functions}{21}{subsection.4.4.2}
-\contentsline {subsubsection}{Data Handling}{21}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Sampledata}{21}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}External Data}{21}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Datasets}{22}{subsection.4.5.2}
-\contentsline {chapter}{\numberline {5}Outlook}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Codon Bias Indices}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Package development}{24}{section.5.3}
-\contentsline {chapter}{\numberline {6}R package on GitHub}{27}{chapter.6}
-\contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{29}{appendix.A}
-\contentsline {chapter}{Bibliography}{37}{section*.16}
-\contentsline {chapter}{Curriculum Vitae}{37}{section*.17}
+\contentsline {chapter}{\numberline {1}Setup of data and project}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Getting familiar with the data}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{7}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}text chunk - tRNA database}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{12}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{13}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}R package setup and maintenance}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Generation of R package}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Maintenance with R Studio}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Publishing on GitHub - Description of versions}{16}{subsection.2.1.2}
+\contentsline {chapter}{\numberline {3}Transcription of Darwin Code}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Transcription of Darwin functions}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}R environement adaptation}{19}{section.3.2}
+\contentsline {chapter}{\numberline {4}Vignette}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}statanacoseq}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Demos}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Tests}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Functions}{22}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Indices}{22}{subsection.4.4.1}
+\contentsline {subsubsection}{Intermediator functions for indices}{22}{subsection.4.4.1}
+\contentsline {subsubsection}{Void indices}{22}{subsection.4.4.1}
+\contentsline {subsubsection}{Database Function from Darwin left untranscribed}{22}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Helperfunctions}{22}{subsection.4.4.2}
+\contentsline {subsubsection}{Graphical functions}{23}{subsection.4.4.2}
+\contentsline {subsubsection}{3rd party functions}{23}{subsection.4.4.2}
+\contentsline {subsubsection}{Obsolete functions}{23}{subsection.4.4.2}
+\contentsline {subsubsection}{Data Handling}{23}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Sampledata}{23}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}External Data}{23}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Datasets}{24}{subsection.4.5.2}
+\contentsline {chapter}{\numberline {5}Outlook}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Codon Bias Indices}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Biological meaning and statistics}{25}{section.5.2}
+\contentsline {section}{\numberline {5.3}Package development}{26}{section.5.3}
+\contentsline {chapter}{\numberline {6}R package on GitHub}{29}{chapter.6}
+\contentsline {chapter}{\numberline {A}Appendix - the Darwin code for codon indices}{31}{appendix.A}
+\contentsline {chapter}{Bibliography}{39}{section*.17}
+\contentsline {chapter}{Curriculum Vitae}{39}{section*.18}

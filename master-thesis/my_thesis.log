@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  11 AUG 2016 08:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  11 AUG 2016 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,8 +1766,14 @@ LaTeX Warning: Citation `Chaney2015' on page 2 undefined on input line 14.
 LaTeX Warning: Citation `cannarozzi2014genome' on page 2 undefined on input lin
 e 17.
 
+<images/teff.jpg, id=313, 602.25pt x 401.5pt>
+File: images/teff.jpg Graphic file (type jpg)
+ <use images/teff.jpg>
+Package pdftex.def Info: images/teff.jpg used on input line 21.
+(pdftex.def)             Requested size: 376.42575pt x 250.96138pt.
 
-LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 23.
+
+LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 30.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1782,7 +1788,7 @@ File: lstlang2.sty 2013/08/26 1.5b listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2013/08/26 1.5b listings language file
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 28.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1794,23 +1800,23 @@ Package microtype Info: Loading generic settings for font family
  (./codes/geneticcode.R
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
-)) [3] [4]
+[3 <./images/teff.jpg>])) [4] [5]
 \openout2 = `main/ch2_setup.aux'.
 
- (./main/ch2_setup.tex
+ (./main/ch2_setup.tex [6
+
+
+
+]
 Chapter 1.
-(./codes/readstats.R [5
-
-
-
-])
+(./codes/readstats.R [7])
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-(./codes/Zmays.stats [6])
+(./codes/Zmays.stats [8])
 Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)                    date: 2016-08-09 19:56:14
 (epstopdf)                    size: 9836584 bytes
@@ -1822,7 +1828,7 @@ Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/byrow-eps-converted-to.pdf, id=426, 505.89pt x 505.89pt>
+<images/byrow-eps-converted-to.pdf, id=438, 505.89pt x 505.89pt>
 File: images/byrow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/byrow-eps-converted-to.pdf>
@@ -1840,7 +1846,7 @@ nverted-to.pdf images/logallfa_col.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logallfa_col-eps-converted-to.pdf, id=429, 505.89pt x 505.89pt>
+<images/logallfa_col-eps-converted-to.pdf, id=441, 505.89pt x 505.89pt>
 File: images/logallfa_col-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logallfa_col-eps-converted-to.pdf>
@@ -1849,14 +1855,14 @@ Package pdftex.def Info: images/logallfa_col-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 376.42575pt x 376.4292pt.
 
 
-LaTeX Warning: Citation `Chan2016' on page 7 undefined on input line 33.
+LaTeX Warning: Citation `Chan2016' on page 9 undefined on input line 33.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-[8 <./images/byrow-eps-converted-to.pdf>] [9 <./images/logallfa_col-eps-convert
-ed-to.pdf>]
+ [9]
+[10 <./images/byrow-eps-converted-to.pdf>] [11 <./images/logallfa_col-eps-conve
+rted-to.pdf>]
 Overfull \hbox (9.94156pt too wide) in paragraph at lines 69--72
 \T1/phv/m/n/10.95 (-20) exts.html to write an R pack-age bio-con-duc-tor https:
 //www.bioconductor.org/developers/how-
@@ -1865,14 +1871,14 @@ Overfull \hbox (9.94156pt too wide) in paragraph at lines 69--72
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-<images/fig1_plotOCU.jpg, id=496, 673.51625pt x 673.51625pt>
+ [12]
+<images/fig1_plotOCU.jpg, id=507, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
 Package pdftex.def Info: images/fig1_plotOCU.jpg used on input line 87.
 (pdftex.def)             Requested size: 376.42575pt x 376.42657pt.
-) [11] [12 <./images/fig1_plotOCU.jpg>]
+) [13] [14 <./images/fig1_plotOCU.jpg>]
 \openout2 = `main/ch3_Rpackage.aux'.
 
 
@@ -1881,22 +1887,22 @@ Chapter 2.
 (./codes/first_R_package.R)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [15
 
 
 
 ]
 (./codes/countcodonfreq.R) (./codes/help.R)
 
-LaTeX Warning: Citation `Rstudio2015' on page 14 undefined on input line 17.
+LaTeX Warning: Citation `Rstudio2015' on page 16 undefined on input line 17.
 
 
-LaTeX Warning: Citation `Charles2013' on page 14 undefined on input line 21.
+LaTeX Warning: Citation `Charles2013' on page 16 undefined on input line 21.
 
-) [14] [15]
+) [16] [17]
 \openout2 = `main/ch4_transcription.aux'.
 
- (./main/ch4_transcription.tex [16
+ (./main/ch4_transcription.tex [18
 
 
 
@@ -1905,8 +1911,8 @@ Chapter 3.
 (./codes/ComputeNEC.R
 Underfull \vbox (badness 3690) has occurred while \output is active []
 
- [17]))
-[18]
+ [19]))
+[20]
 \openout2 = `main/ch5_vignette.aux'.
 
  (./main/ch5_vignette.tex
@@ -1929,7 +1935,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--31
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [21
 
 
 
@@ -1956,7 +1962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--54
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -1984,21 +1990,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-) [22]
+) [24]
 \openout2 = `main/ch6_outlook.aux'.
 
  (./main/ch6_outlook.tex
 Chapter 5.
 
-LaTeX Warning: Citation `BinderCh13' on page 23 undefined on input line 7.
+LaTeX Warning: Citation `BinderCh13' on page 25 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Jansen2003' on page 23 undefined on input line 7.
+LaTeX Warning: Citation `Jansen2003' on page 25 undefined on input line 7.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 14.
@@ -2028,24 +2034,24 @@ LaTeX Warning: Float too large for page by 77.95691pt on input line 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [25
 
 
 
 ])
-[24] [25]
+[26] [27]
 \openout2 = `main/ch7_installation.aux'.
 
- (./main/ch7_installation.tex [26
+ (./main/ch7_installation.tex [28
 
 
 
 ]
 Chapter 6.
-(./codes/install.R) (./codes/demo.R)) [27]
+(./codes/install.R) (./codes/demo.R)) [29]
 \openout2 = `tail/appendix.aux'.
 
- (./tail/appendix.tex [28
+ (./tail/appendix.tex [30
 
 
 
@@ -2073,12 +2079,6 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (./codes/CodonIndices
 Underfull \vbox (badness 6141) has occurred while \output is active []
 
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2088,8 +2088,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]))
-[35] [36
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]))
+[37] [38
 
 
 ]
@@ -2099,7 +2105,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `tail/cv.aux'.
 
  (./tail/cv.tex
-<tail/cv.pdf, id=1042, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1054, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
@@ -2109,7 +2115,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <tail/cv.pdf, id=1045, page=1, 597.50829pt x 845.0471pt>
+ <tail/cv.pdf, id=1057, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2132,14 +2138,14 @@ File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf, page 1>
 Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [37
+ [39
 
 
 
 
 
  <./tail/cv.pdf>]
-<tail/cv.pdf, id=1067, page=2, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1078, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2154,7 +2160,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[38 <./tail/cv.pdf>] <tail/cv.pdf, id=1077, page=3, 597.50829pt x 845.0471pt>
+[40 <./tail/cv.pdf>] <tail/cv.pdf, id=1088, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2169,7 +2175,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page3 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[39 <./tail/cv.pdf>])
+[41 <./tail/cv.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./my_thesis.aux (./head/dedication.aux)
@@ -2180,18 +2186,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E244DABDE3968954226A84E3E37CACA5;2636.
+(rerunfilecheck)             Checksum: 7A9A0DFD490741AA70E5EA1602B4A492;2636.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28740 strings out of 494474
- 466779 string characters out of 6172703
- 1047371 words of memory out of 5000000
- 30404 multiletter control sequences out of 15000+600000
+ 28749 strings out of 494474
+ 466907 string characters out of 6172703
+ 1047492 words of memory out of 5000000
+ 30409 multiletter control sequences out of 15000+600000
  137508 words of font info for 263 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  58i,18n,79p,1411b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2208,10 +2217,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (57 pages, 2743021 bytes).
+Output written on my_thesis.pdf (59 pages, 2914530 bytes).
 PDF statistics:
- 1254 PDF objects out of 1440 (max. 8388607)
- 1155 compressed objects within 12 object streams
- 645 named destinations out of 1000 (max. 500000)
- 48007 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1265 PDF objects out of 1440 (max. 8388607)
+ 1163 compressed objects within 12 object streams
+ 648 named destinations out of 1000 (max. 500000)
+ 48012 words of extra memory for PDF output out of 51595 (max. 10000000)
 
