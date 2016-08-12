@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  11 AUG 2016 09:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  12 AUG 2016 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,7 +1581,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<images/Logo_University_Bern.png, id=171, 1027.84pt x 1027.84pt>
+<images/Logo_University_Bern.png, id=175, 1027.84pt x 1027.84pt>
 File: images/Logo_University_Bern.png Graphic file (type png)
 
 <use images/Logo_University_Bern.png>
@@ -1766,11 +1766,11 @@ LaTeX Warning: Citation `Chaney2015' on page 2 undefined on input line 14.
 LaTeX Warning: Citation `cannarozzi2014genome' on page 2 undefined on input lin
 e 17.
 
-<images/teff.jpg, id=315, 602.25pt x 401.5pt>
+<images/teff.jpg, id=321, 1204.5pt x 803.0pt>
 File: images/teff.jpg Graphic file (type jpg)
  <use images/teff.jpg>
 Package pdftex.def Info: images/teff.jpg used on input line 21.
-(pdftex.def)             Requested size: 376.42575pt x 250.96138pt.
+(pdftex.def)             Requested size: 376.42575pt x 250.94913pt.
 
 
 LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 30.
@@ -1824,14 +1824,14 @@ Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)                    date: 2016-08-09 19:56:14
 (epstopdf)                    size: 9836584 bytes
 (epstopdf)             Output file: <images/byrow-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-10 10:04:59
+(epstopdf)                    date: 2016-08-10 10:04:58
 (epstopdf)                    size: 1023238 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/byrow-eps-converted
 -to.pdf images/byrow.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/byrow-eps-converted-to.pdf, id=440, 505.89pt x 505.89pt>
+<images/byrow-eps-converted-to.pdf, id=445, 505.89pt x 505.89pt>
 File: images/byrow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/byrow-eps-converted-to.pdf>
@@ -1839,7 +1839,7 @@ Package pdftex.def Info: images/byrow-eps-converted-to.pdf used on input line 1
 5.
 (pdftex.def)             Requested size: 376.42575pt x 376.4292pt.
 Package epstopdf Info: Source file: <images/logallfa_col.eps>
-(epstopdf)                    date: 2016-08-10 16:58:27
+(epstopdf)                    date: 2016-08-10 16:58:26
 (epstopdf)                    size: 11346706 bytes
 (epstopdf)             Output file: <images/logallfa_col-eps-converted-to.pdf>
 (epstopdf)                    date: 2016-08-10 17:03:14
@@ -1849,7 +1849,7 @@ nverted-to.pdf images/logallfa_col.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logallfa_col-eps-converted-to.pdf, id=443, 505.89pt x 505.89pt>
+<images/logallfa_col-eps-converted-to.pdf, id=448, 505.89pt x 505.89pt>
 File: images/logallfa_col-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logallfa_col-eps-converted-to.pdf>
@@ -1869,7 +1869,7 @@ rted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<images/fig1_plotOCU.jpg, id=509, 673.51625pt x 673.51625pt>
+<images/fig1_plotOCU.jpg, id=514, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
@@ -1890,13 +1890,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 (./codes/countcodonfreq.R) (./codes/help.R)
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
-LaTeX Warning: Citation `Rstudio2015' on page 16 undefined on input line 17.
+ []
 
 
-LaTeX Warning: Citation `Charles2013' on page 16 undefined on input line 21.
+LaTeX Warning: Citation `Rstudio2015' on page 16 undefined on input line 21.
 
-) [16] [17]
+
+LaTeX Warning: Citation `Charles2013' on page 16 undefined on input line 25.
+
+[16]) [17]
 \openout2 = `main/ch4_transcription.aux'.
 
  (./main/ch4_transcription.tex [18
@@ -2102,7 +2106,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `tail/cv.aux'.
 
  (./tail/cv.tex
-<tail/cv.pdf, id=1058, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1064, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
@@ -2112,7 +2116,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <tail/cv.pdf, id=1061, page=1, 597.50829pt x 845.0471pt>
+ <tail/cv.pdf, id=1067, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2142,7 +2146,7 @@ Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 
 
  <./tail/cv.pdf>]
-<tail/cv.pdf, id=1082, page=2, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1088, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2157,7 +2161,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[40 <./tail/cv.pdf>] <tail/cv.pdf, id=1092, page=3, 597.50829pt x 845.0471pt>
+[40 <./tail/cv.pdf>] <tail/cv.pdf, id=1098, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2183,7 +2187,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7A9A0DFD490741AA70E5EA1602B4A492;2636.
+(rerunfilecheck)             Checksum: A30F8DC104EAB4F6E4963D4C82D52F2F;2711.
 
 
 LaTeX Warning: There were undefined references.
@@ -2191,10 +2195,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28747 strings out of 494474
- 466896 string characters out of 6172703
+ 28752 strings out of 494474
+ 466961 string characters out of 6172703
  1047494 words of memory out of 5000000
- 30409 multiletter control sequences out of 15000+600000
+ 30412 multiletter control sequences out of 15000+600000
  137257 words of font info for 261 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  58i,18n,79p,1411b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2211,10 +2215,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (59 pages, 2914982 bytes).
+Output written on my_thesis.pdf (59 pages, 3655829 bytes).
 PDF statistics:
- 1272 PDF objects out of 1440 (max. 8388607)
- 1170 compressed objects within 12 object streams
- 649 named destinations out of 1000 (max. 500000)
- 48012 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1278 PDF objects out of 1440 (max. 8388607)
+ 1176 compressed objects within 12 object streams
+ 651 named destinations out of 1000 (max. 500000)
+ 48020 words of extra memory for PDF output out of 51595 (max. 10000000)
 
