@@ -1,0 +1,36 @@
+  Database: IRGSP-1.0_protein_2011-12-05.fasta
+    Posted date:  Mar 4, 2013  10:59 PM
+  Number of letters in database: 13,848,002
+  Number of sequences in database:  42,124
+  
+Lambda     K      H
+   0.318    0.135    0.408 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 42124
+Number of Hits to DB: 468,858,621,970
+Number of extensions: 439567939
+Number of successful extensions: 147953882
+Number of sequences better than 1.0e-180: 18307
+Number of HSP's gapped: 147741103
+Number of HSP's successfully gapped: 21415
+Length of query: 395
+Length of database: 13,848,002
+Length adjustment: 102
+Effective length of query: 293
+Effective length of database: 9,551,354
+Effective search space: 2798546722
+Effective search space used: 2798546722
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 1622 (629.4 bits)
