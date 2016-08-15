@@ -85,6 +85,14 @@ The table~\ref{tab:CodonBiasIndices} is a floating table showing which indices h
 
 To give those indices more power, attributes should be set to choose from different version of those indices that have been improoved over time. Test should be done with the results from the original papers to confirm the down-gradability of the index functions.
 
+\section{CHUNK}
+normalized translational efficiency (nTE)
+tRNA adaptation index (tAI) from Goodman 475
+\cite{Goodman2013}
+
+\cite{Tuller2010) for codon ramp
+
+
 
 \section{Biological meaning and statistics}
 The basic idea of a statistical analysis package for codon analysis is to combine the most frequently used codon indices in one software to evaluate which of them is best performing regarding to the availability (quality) and the biological properties for the given species. By putting it into the environement of the statistical open source program R following analysis steps as correlation to Gene Ontology (GO) tags can be done without having to deal with data handling to other software. The open structure of R codes also allows to use other implementation of algorithms already developed for R as we here used the functions RSCU from seqinr package for example. That allows other scientist to work with there own interpretation of new indices or better implementation of algorithms to calculate them. Furthermore, it is designed to adapt collaborators or third party code in the package, because every function has its own file and comes with the description of the function.\\
