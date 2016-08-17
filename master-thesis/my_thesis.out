@@ -35,9 +35,10 @@
 \BOOKMARK [2][-]{subsection.4.5.2}{Datasets}{section.4.5}% 35
 \BOOKMARK [0][-]{chapter.5}{Outlook}{}% 36
 \BOOKMARK [1][-]{section.5.1}{Codon Bias Indices}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Biological meaning and statistics}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{Package development}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 40
-\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 41
-\BOOKMARK [0][-]{section*.17}{Bibliography}{}% 42
-\BOOKMARK [0][-]{section*.18}{Curriculum Vitae}{}% 43
+\BOOKMARK [1][-]{section.5.2}{CHUNK}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Biological meaning and statistics}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Package development}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 41
+\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 42
+\BOOKMARK [0][-]{section*.18}{Bibliography}{}% 43
+\BOOKMARK [0][-]{section*.19}{Curriculum Vitae}{}% 44

@@ -22,23 +22,23 @@ species \quad \\
 
 \subsection{Indices}
 \hypertarget{function:CAI}{ComputeCAI}	\quad Codon Adaptation Index \\
-ComputeCAIVector \quad 	Codon Adaptation Index Vector \\
-ComputeCarboneRA	\quad Compute Carbone Relative Adaptiveness \\
+\hypertarget{function:CAIv}{ComputeCAIVector} \quad 	Codon Adaptation Index Vector \\
+\hypertarget{function:RA}{ComputeCarboneRA}	\quad Compute Carbone Relative Adaptiveness \\
 \hypertarget{function:Fop}{ComputeFop}	\quad Frequency of Optimal Codons \\
 \hypertarget{function:G3C}{ComputeGC3syn}	\quad GC content 3rd position of synonymous codons	 \\	% need fixing
 \hypertarget{function:NEC}{ComputeNEC}	\quad Effective number of codons \\							% I guess all functions need require(seqinr)
 \hypertarget{function:RA}{RelativeAdaptiveness}	\quad Compute Relative Adaptiveness	 \\			% Handle warnings
 
 \subsubsection{Intermediator functions for indices}
-RSCU	Relative \quad Synonymous Codon Usage \\								% 
+\hypertarget{function:RSCU}{RSCU}	Relative \quad Synonymous Codon Usage \\								% 
 
 \subsubsection{Void indices}
-ComputeCBI	\quad Codon Bias Index  \\
-ScaledChiSquare	\quad Scaled Chi-Square  \\
-SilentSiteComposition	\quad Base Composition at Silent Sites  \\
+\hypertarget{function:CBI}{ComputeCBI}	\quad Codon Bias Index  \\
+\hypertarget{function:Chi2}{ScaledChiSquare}	\quad Scaled Chi-Square  \\
+\hypertarget{function:SSC}{SilentSiteComposition}	\quad Base Composition at Silent Sites  \\
 
 \subsubsection{Database Function from Darwin left untranscribed}
-Entries	\quad Entries \\
+\hypertarget{function:Entries}{Entries}	\quad Entries \\
 
 \subsection{Helperfunctions}
 anticodoncount	\quad Calculate Global Anticodon Usage \\
@@ -62,27 +62,23 @@ movingAverage	\quad Calculating a Moving Average \\
 countcodonfreq	\quad Count Codon Frequency \\
 
 \subsubsection{Data Handling}
-mylist	\quad My List of Nucleotide-Sequences and Aminoacid-Sequences \\
-readfasta	\quad Processed tRNA Containing Fasta File Headers to Count Anticodons \\
-readintronic	\quad Read tRNA Intronic Gene Count Statistics \\
-readstats	\quad Read tRNA Gene Count Statistics \\
+\hypertarget{function:mylist}{mylist}	\quad My List of Nucleotide-Sequences and Aminoacid-Sequences \\
+\hypertarget{function:readfasta}{readfasta}	\quad Processed tRNA Containing Fasta File Headers to Count Anticodons \\
+\hypertarget{function:readintronic}{readintronic}	\quad Read tRNA Intronic Gene Count Statistics \\
+\hypertarget{function:readstats}{readstats}	\quad Read tRNA Gene Count Statistics \\
 \hypertarget{function:rtRNAo}{readtRNAout}	\quad Read tRNA Gene Count Statistics \\
-searchfafile	\quad Search and Return a Fasta File Name from Partial Name \\
+\hypertarget{function:searchfafile}{searchfafile}	\quad Search and Return a Fasta File Name from Partial Name \\
 
 \section{Sampledata}
 
 \subsection{External Data}
-Etef.sample.protein.fasta \quad Selectped Teff Protein sequences, matching selected CDS \\
-Etef.sample.transcript.fasta \quad  Selected Teff CDS, closely related to rice sequences \\
+\hypertarget{data:RNA}{Etef.sample.protein.fasta} \quad Selectped Teff Protein sequences, matching selected CDS \\
+\hypertarget{data:AA}{Etef.sample.transcript.fasta} \quad  Selected Teff CDS, closely related to rice sequences \\
 \hypertarget{data:tRNAlist}{seq30469.out} \quad tRNAscan-SE 2.0 online output file for teff tRNA sequences is used as example imput for \hyperlink{function:rtRNAo}{readtRNAout} \\
 
 \subsection{Datasets}
-aa\_ac	\quad Aminoacids and Anticodons \\
-GtRNAdb2species	\quad Viruses, Eukaryota, Archaea, Bacteria Species Names on GtRNAdb2 \\
-Tef	\quad Optimal Codon Table for Eragostis tef Decided on tRNAscan-SE count of tRNA genes in sequenced genome \\
+\hypertarget{data:aaac}{aa\_ac}	\quad Aminoacids and Anticodons \\
+\hypertarget{data:species}{GtRNAdb2species}	\quad Viruses, Eukaryota, Archaea, Bacteria Species Names on GtRNAdb2 \\
+\hypertarget{data:Tef}{Tef}	\quad Optimal Codon Table for Eragostis tef Decided on tRNAscan-SE count of tRNA genes in sequenced genome \\
 \hypertarget{data:veab}{veab}		\quad Viruses, Eukaryota, Archaea, Bacteria Species File Names on GtRNAdb2 \\
-veabfa	\quad Viruses, Eukaryota, Archaea, Bacteria Species Fasta File Names on GtRNAdb2 \\
-
-
-
-
+\hypertarget{data:veabfa}{veabfa}	\quad Viruses, Eukaryota, Archaea, Bacteria Species Fasta File Names on GtRNAdb2 \\
