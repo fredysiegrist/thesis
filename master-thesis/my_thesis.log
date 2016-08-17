@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  17 AUG 2016 12:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  17 AUG 2016 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1750,7 +1750,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  (./main/ch1_introduction.tex
 
-LaTeX Warning: Citation `Galtier2001' on page 1 undefined on input line 8.
+LaTeX Warning: Citation `Galtier2001' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Muto1987' on page 1 undefined on input line 7.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1760,20 +1763,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-LaTeX Warning: Citation `Chaney2015' on page 2 undefined on input line 14.
+LaTeX Warning: Citation `Chaney2015' on page 2 undefined on input line 13.
 
 
 LaTeX Warning: Citation `cannarozzi2014genome' on page 2 undefined on input lin
-e 17.
+e 16.
 
 <images/teff.jpg, id=333, 1204.5pt x 803.0pt>
 File: images/teff.jpg Graphic file (type jpg)
  <use images/teff.jpg>
-Package pdftex.def Info: images/teff.jpg used on input line 21.
+Package pdftex.def Info: images/teff.jpg used on input line 20.
 (pdftex.def)             Requested size: 376.42575pt x 250.94913pt.
 
 
-LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 30.
+LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 29.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1791,7 +1794,7 @@ File: lstlang3.sty 2013/08/26 1.5b listings language file
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./images/teff.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1803,7 +1806,12 @@ Package microtype Info: Loading generic settings for font family
 (./codes/geneticcode.R
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
-)) [4] [5]
+) (./codes/CodonTable.R)
+Overfull \hbox (76.35938pt too wide) in paragraph at lines 40--129
+ [] 
+ []
+
+) [4] [5]
 \openout2 = `main/ch2_setup.aux'.
 
  (./main/ch2_setup.tex [6
@@ -1831,7 +1839,7 @@ Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/byrow-eps-converted-to.pdf, id=457, 505.89pt x 505.89pt>
+<images/byrow-eps-converted-to.pdf, id=491, 505.89pt x 505.89pt>
 File: images/byrow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/byrow-eps-converted-to.pdf>
@@ -1849,7 +1857,7 @@ nverted-to.pdf images/logallfa_col.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logallfa_col-eps-converted-to.pdf, id=460, 505.89pt x 505.89pt>
+<images/logallfa_col-eps-converted-to.pdf, id=494, 505.89pt x 505.89pt>
 File: images/logallfa_col-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logallfa_col-eps-converted-to.pdf>
@@ -1869,13 +1877,13 @@ rted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<images/plotGC.png, id=526, 301.125pt x 301.125pt>
+<images/plotGC.png, id=561, 301.125pt x 301.125pt>
 File: images/plotGC.png Graphic file (type png)
  <use images/plotGC.png>
 Package pdftex.def Info: images/plotGC.png used on input line 77.
 (pdftex.def)             Requested size: 209.12683pt x 209.13652pt.
 
-<images/fig1_plotOCU.jpg, id=529, 673.51625pt x 673.51625pt>
+<images/fig1_plotOCU.jpg, id=564, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
@@ -2139,7 +2147,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `tail/cv.aux'.
 
  (./tail/cv.tex
-<tail/cv.pdf, id=1142, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1177, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
@@ -2149,7 +2157,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <tail/cv.pdf, id=1145, page=1, 597.50829pt x 845.0471pt>
+ <tail/cv.pdf, id=1180, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2179,7 +2187,7 @@ Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 
 
  <./tail/cv.pdf>]
-<tail/cv.pdf, id=1167, page=2, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1201, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2194,7 +2202,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[42 <./tail/cv.pdf>] <tail/cv.pdf, id=1177, page=3, 597.50829pt x 845.0471pt>
+[42 <./tail/cv.pdf>] <tail/cv.pdf, id=1211, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2228,10 +2236,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28824 strings out of 494474
- 467990 string characters out of 6172703
- 1047616 words of memory out of 5000000
- 30421 multiletter control sequences out of 15000+600000
+ 28880 strings out of 494474
+ 468739 string characters out of 6172703
+ 1047617 words of memory out of 5000000
+ 30440 multiletter control sequences out of 15000+600000
  137131 words of font info for 261 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  58i,18n,79p,1411b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2248,10 +2256,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (61 pages, 3838717 bytes).
+Output written on my_thesis.pdf (61 pages, 3841573 bytes).
 PDF statistics:
- 1369 PDF objects out of 1440 (max. 8388607)
- 1261 compressed objects within 13 object streams
- 710 named destinations out of 1000 (max. 500000)
+ 1410 PDF objects out of 1440 (max. 8388607)
+ 1301 compressed objects within 14 object streams
+ 744 named destinations out of 1000 (max. 500000)
  48041 words of extra memory for PDF output out of 51595 (max. 10000000)
 
