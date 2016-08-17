@@ -38,8 +38,8 @@
 \contentsline {subsubsection}{3rd party functions}{25}{subsection.4.4.2}
 \contentsline {subsubsection}{Obsolete functions}{25}{subsection.4.4.2}
 \contentsline {subsubsection}{Data Handling}{25}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Sampledata}{25}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}External Data}{25}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.5}Sampledata}{26}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}External Data}{26}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Datasets}{26}{subsection.4.5.2}
 \contentsline {chapter}{\numberline {5}Outlook}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Codon Bias Indices}{27}{section.5.1}
