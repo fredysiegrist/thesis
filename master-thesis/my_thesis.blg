@@ -20,9 +20,9 @@ I couldn't open style file splncs.bst
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: tail/cv.aux
 I found no style file---while reading file my_thesis.aux
-You've used 9 entries,
+You've used 12 entries,
             0 wiz_defined-function locations,
-            114 strings with 936 characters,
+            121 strings with 1002 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

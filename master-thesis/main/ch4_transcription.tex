@@ -1,9 +1,9 @@
 \chapter{Transcription of Darwin Code}
-In this chapter we summarize the transcription of Darwin codes and the adaptation of some function to the R enviorenment.
+In this chapter we summarize the transcription of Darwin codes and the adaptation of some function to the R environment.
 
 
 \section{Transcription of Darwin functions}
-One of the tasks was to set up a system that can handle the functions implemented in Darwin in the source compilation \textit{CodonIndices} and process genetic files given from local fasta files, sequence files from public databases or sample files from the R package if no custom sequence is entered. The remaining problem is to understand how the variable \textit{Entries} is build up from the database \textit{db} and to mirror that function as we built up the R package on the existing R project SeqInR \textit{seqinr} that uses a distict different sequence database handling.
+One of the tasks was to set up a system that can handle the functions implemented in Darwin in the source compilation \textit{CodonIndices} and process genetic files given from local fasta files, sequence files from public databases or sample files from the R package if no custom sequence is entered. The remaining problem is to understand how the variable \textit{Entries} is build up from the database \textit{db} and to mirror that function as we built up the R package on the existing R project SeqInR \textit{seqinr} that uses a distinct different sequence database handling.
 Some other functions, where indices are calculated on the sequence information itself, where adaptable without dealing with the sequence database problem and were transcribed 1:1 to a function R code, however the loops are not acknowledging the functionality of the R environment.
 
 \section{R environement adaptation}

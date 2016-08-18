@@ -12,11 +12,11 @@ plotOCU \quad Plots the Codon Optimality Score for Each Aminoacid in the Eragost
 
 
 \section{Tests}
-checkCDNA \quad \\
-Fop \quad \\
-NEC \quad \\
-NucleotideContent \quad \\
-species \quad \\
+checkCDNA \quad Tests if the sample CDS throws a warning for the missing stop codon and whether this can be rescued by adding a stop codon. \\
+Fop \quad Tests if Frequency of optimal codons are calculated (with added opal stop codon) as initially set by comparing with a vector of correct Fop for the sample data. \\
+NEC \quad Tests if the output of ComputeNEC is the same as for the 3rd party function CUB from \textit{vhica} package. \\
+NucleotideContent \quad Tests if NucleotideContent calculates the same value for a random sequence as would be expected intuatively. \\
+species \quad Tests the external database if all species have all codons defined or if there is a change in  GtRNAdb2. \\
 
 \section{Functions}
 
@@ -67,13 +67,13 @@ countcodonfreq	\quad Count Codon Frequency \\
 \hypertarget{function:readfasta}{readfasta}	\quad Processed tRNA Containing Fasta File Headers to Count Anticodons \\
 \hypertarget{function:readintronic}{readintronic}	\quad Read tRNA Intronic Gene Count Statistics \\
 \hypertarget{function:readstats}{readstats}	\quad Read tRNA Gene Count Statistics \\
-\hypertarget{function:rtRNAo}{readtRNAout}	\quad Read tRNA Gene Count Statistics \\
+\hypertarget{function:rtRNAo}{readtRNAout}	\quad Read tRNA Gene Count Statistics from custom file \\
 \hypertarget{function:searchfafile}{searchfafile}	\quad Search and Return a Fasta File Name from Partial Name \\
 
 \section{Sampledata}
 
 \subsection{External Data}
-\hypertarget{data:RNA}{Etef.sample.protein.fasta} \quad Selectped Teff Protein sequences, matching selected CDS \\
+\hypertarget{data:RNA}{Etef.sample.protein.fasta} \quad Selected Teff Protein sequences, matching selected CDS \\
 \hypertarget{data:AA}{Etef.sample.transcript.fasta} \quad  Selected Teff CDS, closely related to rice sequences \\
 \hypertarget{data:tRNAlist}{seq30469.out} \quad tRNAscan-SE 2.0 online output file for teff tRNA sequences is used as example imput for \hyperlink{function:rtRNAo}{readtRNAout} \\
 

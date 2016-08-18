@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  18 AUG 2016 13:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  18 AUG 2016 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1709,16 +1709,19 @@ LaTeX Warning: Citation `BinderCh13' on page v undefined on input line 11.
 
 LaTeX Warning: Citation `Cannarozzi2010' on page v undefined on input line 12.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-
- []
-
 [5
 
 ] [6
 
-]) [7
+]
+
+LaTeX Warning: Citation `BinderCh13' on page vii undefined on input line 28.
+
+
+LaTeX Warning: Citation `Cannarozzi2010' on page vii undefined on input line 29
+.
+
+) [7
 
 ] [8
 
@@ -1776,7 +1779,7 @@ Package pdftex.def Info: images/teff.jpg used on input line 20.
 (pdftex.def)             Requested size: 376.42575pt x 250.94913pt.
 
 
-LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 29.
+LaTeX Warning: Citation `Suzuki2016' on page 2 undefined on input line 28.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1794,7 +1797,7 @@ File: lstlang3.sty 2013/08/26 1.5b listings language file
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./images/teff.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1807,7 +1810,7 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
 ) (./codes/CodonTable.R)
-Overfull \hbox (76.35938pt too wide) in paragraph at lines 41--130
+Overfull \hbox (76.35938pt too wide) in paragraph at lines 40--129
  [] 
  []
 
@@ -1987,11 +1990,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--32
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25
@@ -1999,6 +1997,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -2100,7 +2103,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--82
 LaTeX Warning: Float too large for page by 77.95691pt on input line 82.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
@@ -2112,7 +2115,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
@@ -2268,31 +2271,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 ) (./tail/appendix.aux) (./tail/biblio.aux) (./tail/cv.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package rerunfilecheck Info: File `my_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: C6EFE0EBCC76F637C5E96C36D5C127BA;2817.
 
-
-Package rerunfilecheck Warning: File `my_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `my_thesis.out':
-(rerunfilecheck)             Before: B9186285686E9D205BE43BB41E3F16FF;2811
-(rerunfilecheck)             After:  C6EFE0EBCC76F637C5E96C36D5C127BA;2817.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 28886 strings out of 494474
- 468772 string characters out of 6172703
- 1047702 words of memory out of 5000000
+ 28905 strings out of 494474
+ 468956 string characters out of 6172703
+ 1047701 words of memory out of 5000000
  30439 multiletter control sequences out of 15000+600000
- 137570 words of font info for 266 fonts, out of 8000000 for 9000
+ 139202 words of font info for 279 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
- 58i,18n,79p,1411b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,18n,79p,1414b,3869s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{function:plotOCU} has been referenced but does no
 t exist, replaced by a fixed one
 
@@ -2308,7 +2302,7 @@ exmf/fonts/type1/public/cm-super/sfit0800.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sftt0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (63 pages, 3819231 bytes).
+Output written on my_thesis.pdf (63 pages, 3821704 bytes).
 PDF statistics:
  1422 PDF objects out of 1440 (max. 8388607)
  1312 compressed objects within 14 object streams
