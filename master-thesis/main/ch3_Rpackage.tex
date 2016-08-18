@@ -1,41 +1,37 @@
 \chapter{R package setup and maintenance}
-In this chapter we will describe the generation of the R package structure, implementation in R Studio and hosting on GitHub.
+In this chapter we will describe the generation of the R package structure, implementation in R Studio and version numbers on GitHub.
 
 
 \section{Generation of R package}
-The first intention was to generate a package named "statanacoseq" in the linux version of R. The name is pretty long and has not been found to be used as R package name anywhere else, that is screened by google.
+The first intention was to generate a package named "statanacoseq" in the linux version of R. The name is pretty long but has not been found to be used as R package name anywhere else, as far as a search in google resulted. \\
 Setting up of the R package has been done with the help of devtools, some few lines of code generate a backbone that then can be filled with the content and basically be packed after having put the first function in to an R file. 
 
   \lstinputlisting[language=R, breaklines=true]{codes/first_R_package.R}
 
-In this case a simple function with misleading name was countcodonfreq but was used to check the 'validated' fasta files by printing out the fraction of codons to aminoacids for the nucleotide and aminoacids with the same entry name. 
+In this case a simple function with the misleading name was countcodonfreq but was used to check the 'validated' fasta files by printing out the fraction of codons to aminoacids for the nucleotide and aminoacids with the same entry name. 
   \lstinputlisting[language=R, breaklines=true]{codes/countcodonfreq.R}
-The correct interpretation of the roxygen function documentation can be checked by adressing the help of the function in a internal window or as html style:
+As we meantioned in the chapter before, the fasta files had already undergone some error fixing and was now correctly processed by this function, what left this function more or less abandoned. \\
+Another advantage of this function was, to check the correct interpretation of the roxygen documentation, that can be checked by adressing the help of the function in a internal window or as html style:
   \lstinputlisting[language=R, breaklines=true]{codes/help.R}
 
-\subsection{Chunk from Labjournal}
-Then, the DESCRIPTION file manually edited, a dummy function countcodonfreq with existing roxygen comment tested. \\
-The code to install (after installing Rtools from CRAN) roxygen and produce the first package can be found in the file first\_R\_package. However after some reformating steps, the description of the package itself gives out an R error that have to be fixed later. \\
-
-
-%start with CAI
-% look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
-% look at what the possibilities are and what parts of the exisiting implementation can be used?
-% if not , reimplement in such a way that it is more flexible \\
+\subsection{Editing of elementary files}
+Next, the DESCRIPTION file was manually edited, mentioning the copyright, version number and more basic information about the package. Besides of devtools packages other software, such as Rtools from CRAN and roxygen was needed to produce the first version of a functional package. However after some reformating steps, the description of the package itself gave an error out and needs to be fixed later in order that the help call ?statanacoseq is working properly. \\
 
 \subsection{Generation of sample sequence data file}
-This software package is improved by coming with a small set of sample sequences that are used for testing and demonstration for people who want just to see what it is actually doing and do not (yet) have sequences of there own or the idea of on which sequences from public datasets they want to work on. The seqinr package offers here extensive methods for fetching public sequenced and will not be further discussed here. 
-To give the package a touch of the model species that we are working on in our research group, we decided to pack some teff genes and their translation as exemplary data. There are tousands of sequences from teff available that may feed in to a sample data set of about 20 genomic and matched protein sequences. So we did a BLASTP 2.2.25 of the coding sequences from teff to the rize (\textit{Oryza sativa Japonica}) proteome. The report of this search is given here:\\
+The \textit{statanacoseq} software package is improved with a small set of sample sequences that are used for testing and demonstration for people who want just to see what it is actually doing and do not (yet) have sequences of there own or the idea of on which sequences from public datasets they want to work on. The \textit{seqinr} package offers here extensive methods for fetching public sequenced and will not be further discussed here. \\
+To give the package a touch of our own or better said of the model species that we are working on in our research group, we decided to pack some tef genes and their translation as exemplary data. There are tousands of sequences from tef available that may feed in to a sample data set of about 20 genomic and matched protein sequences. So we did a BLASTP 2.2.25 of the coding sequences from teff to the rize (\textit{Oryza sativa Japonica}) proteome. The report of this search is given here:\\
   \lstinputlisting[language=html, breaklines=true]{codes/blastp}
 Then, we picked out manually some of the sequences that showed no variation in sequence length (indels) in both sequences and had about the same total entry length. Furthermore, the sequences should be fairly similar in the sequence (generally > 90\% amino acid similarity). At the first look, there were not that many sequences that fittet those criteria, and the original idea of inserting only identical sequences had to be discarded soon, still a complete search for it has not been performed. The 37 sample sequences were then condensed in two new fasta file and the found similarity to Rize protein was used to give a name to their sequences accordingly to the better studied model organism \textit{O. sativa}. \\
 These sequences can be used for testing of the functions that are implemented, however it should be considered to also test on the sequences form the articles that describe the indices for the first time, to show that the implementation in this package give the same values, if there are improvements of the indices described in later publications, these should be made available by setting the attributes to the different descriptions of the indices. \\
+For some of the functions there have been tests implemented that show an overview of different testing procedures, as testing for the availability and integrity of the GtRNAdb2 internet source, the correct computation of some index values or if warnings in codon sequences can be overcome by correcting those sequences. The tests can be run by the following two lines:
+  \lstinputlisting[language=R, breaklines=true]{codes/runtests.R}
 
 \subsection{Maintenance with R Studio}
-To be more efficient in managing the project the project initiated with devtools was imported into R Studio, a software package that brings many functions for assisting with R code writing, documentation and communication with the version control system \cite{Rstudio2015}. 
+To be more efficient in managing the project the project initiated with devtools was imported into R Studio, a software package that brings many functions for assisting with R code writing, documentation and communication with the version control system \cite{Rstudio2015}. One of the first functions to be implemented there was \hyperlink{function:CAI}{ComputeCAI}, where the original Darwin code is meantioned in the description and should be compared to the implementation in seqinR. Future improvements of the code should be made to maintain the possibility to change base data (tRNA mapping and frequencies) and make it universially usable even for species with a non-standard codon table to be maximal flexible in case existing implementations (in Darwin, seqinr or other 3rd party sofware) are not flexible enough.
 
 \subsection{Publishing on GitHub - Description of versions}
-After the package got the first function to work independently on sample data from the package it was submitted to GitHub, a hosting service for software projects, for version control and to make it available for revision. \\
-The origin is placed at \href{https://github.com/fredysiegrist/statanacoseq.git}{https://github.com/fredysiegrist/statanacoseq.git} \cite{Charles2013}. Since no version has been generated where the indices that are not implemented in Darwin has been drawed up, the version remained at 0.0.0.900x, marking it as under development. At the moment of writing this text the version is 0.0.0.9001 and will be set to 0.0.0.9002 for the evaluation of this work and 0.0.0.9003 after the corrections. Any further version will mark improvements to the code made post thesis submission.
+After the package got the first functions to work independently on sample data from the package it was submitted to GitHub, a hosting service for software projects, for version control and to make it available for revision. \\
+The origin is placed at \href{https://github.com/fredysiegrist/statanacoseq.git}{https://github.com/fredysiegrist/statanacoseq.git}. Since no version has been generated where the indices that are not implemented in Darwin has been drawed up, the version remained at 0.0.0.900x, marking it as under development. At this moment of initiation of writing this text the version is 0.0.0.9001 and will be set to 0.0.0.9002 for the evaluation of this work and 0.0.0.9003 after the corrections. Any further version will mark improvements to the code made post thesis submission.
 
 The version 0.0.1 should mark the mile stone of achieving better performance than the Darwin package, incuding the calculation of not-implemented functions in that code.
 

@@ -1,12 +1,12 @@
 \chapter{Transcription of Darwin Code}
-In this chapter we will describe the transcription of darwin codes and the adaptation of some function to the R enviorenment.
+In this chapter we summarize the transcription of Darwin codes and the adaptation of some function to the R enviorenment.
 
 
 \section{Transcription of Darwin functions}
 One of the tasks was to set up a system that can handle the functions implemented in Darwin in the source compilation \textit{CodonIndices} and process genetic files given from local fasta files, sequence files from public databases or sample files from the R package if no custom sequence is entered. The remaining problem is to understand how the variable \textit{Entries} is build up from the database \textit{db} and to mirror that function as we built up the R package on the existing R project SeqInR \textit{seqinr} that uses a distict different sequence database handling.
-Some other functions, where indices are calculated on the sequence information itself, where adaptable without dealing with the sequence database problem and were transcribed 1:1 to a function R code, however the loops are not acknoledging the functionality of the R environment.
+Some other functions, where indices are calculated on the sequence information itself, where adaptable without dealing with the sequence database problem and were transcribed 1:1 to a function R code, however the loops are not acknowledging the functionality of the R environment.
 
 \section{R environement adaptation}
-To upvalue the code transcibed from Darwin, the function \textit{ComputeNEC} was simplified to R language by eliminating the loops and introducing table and sapply function instead. The source code now looks pretty much like a R code that was setup in that language at first (by me). Below we list this code for demonstration, the original code in Darwin can be found in the appendix.
+To upvalue the code transcibed from Darwin, the function \textit{ComputeNEC} was simplified to R language by eliminating the loops and introducing table and sapply function instead. The source code now looks pretty much like a R code that was setup in that language at first. Below we list this code for demonstration, the original code in Darwin can be found in the appendix.
 
   \lstinputlisting[language=R, breaklines=true]{codes/ComputeNEC.R}
