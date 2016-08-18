@@ -15,13 +15,20 @@ The correct interpretation of the roxygen function documentation can be checked 
 
 \subsection{Chunk from Labjournal}
 Then, the DESCRIPTION file manually edited, a dummy function countcodonfreq with existing roxygen comment tested. \\
-The code to install (after installing Rtools from CRAN) roxygen and produce the first package can be found in the file first\_R\_package. However after some reformating steps, the description of the package itself gives out an R error that have to be fixed later.\\
+The code to install (after installing Rtools from CRAN) roxygen and produce the first package can be found in the file first\_R\_package. However after some reformating steps, the description of the package itself gives out an R error that have to be fixed later. \\
+
+
+%start with CAI
+% look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
+% look at what the possibilities are and what parts of the exisiting implementation can be used?
+% if not , reimplement in such a way that it is more flexible \\
 
 \subsection{Generation of sample sequence data file}
 This software package is improved by coming with a small set of sample sequences that are used for testing and demonstration for people who want just to see what it is actually doing and do not (yet) have sequences of there own or the idea of on which sequences from public datasets they want to work on. The seqinr package offers here extensive methods for fetching public sequenced and will not be further discussed here. 
 To give the package a touch of the model species that we are working on in our research group, we decided to pack some teff genes and their translation as exemplary data. There are tousands of sequences from teff available that may feed in to a sample data set of about 20 genomic and matched protein sequences. So we did a BLASTP 2.2.25 of the coding sequences from teff to the rize (\textit{Oryza sativa Japonica}) proteome. The report of this search is given here:\\
   \lstinputlisting[language=html, breaklines=true]{codes/blastp}
-Then, we picked out manually some of the sequences that showed no variation in sequence length (indels) in both sequences and had about the same total entry length. Furthermore, the sequences should be fairly similar in the sequence (generally > 90\% amino acid similarity). At the first look, there were not that many sequences that fittet those criteria, and the original idea of inserting only identical sequences had to be discarded soon, still a complete search for it has not been performed. The 37 sample sequences were then condensed in two new fasta file and the found similarity to Rize protein was used to give a name to their sequences accordingly to the better studied model organism \textit{O. sativa}.
+Then, we picked out manually some of the sequences that showed no variation in sequence length (indels) in both sequences and had about the same total entry length. Furthermore, the sequences should be fairly similar in the sequence (generally > 90\% amino acid similarity). At the first look, there were not that many sequences that fittet those criteria, and the original idea of inserting only identical sequences had to be discarded soon, still a complete search for it has not been performed. The 37 sample sequences were then condensed in two new fasta file and the found similarity to Rize protein was used to give a name to their sequences accordingly to the better studied model organism \textit{O. sativa}. \\
+These sequences can be used for testing of the functions that are implemented, however it should be considered to also test on the sequences form the articles that describe the indices for the first time, to show that the implementation in this package give the same values, if there are improvements of the indices described in later publications, these should be made available by setting the attributes to the different descriptions of the indices. \\
 
 \subsection{Maintenance with R Studio}
 To be more efficient in managing the project the project initiated with devtools was imported into R Studio, a software package that brings many functions for assisting with R code writing, documentation and communication with the version control system \cite{Rstudio2015}. 

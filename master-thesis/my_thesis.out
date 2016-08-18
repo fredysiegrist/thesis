@@ -11,9 +11,9 @@
 \BOOKMARK [0][-]{chapter.1}{Setup of data and project}{}% 11
 \BOOKMARK [1][-]{section.1.1}{Getting familiar with the data}{chapter.1}% 12
 \BOOKMARK [2][-]{subsection.1.1.1}{tRNA gene statistics and optimality of codons}{section.1.1}% 13
-\BOOKMARK [1][-]{section.1.2}{text chunk - tRNA database}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.2.1}{text chunk - Project notes}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.1.2.2}{Plot OCU demo}{section.1.2}% 16
+\BOOKMARK [1][-]{section.1.2}{First functions and analyses}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.2.1}{Optimality of used codons}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.2}{GC content at codon sites}{section.1.2}% 16
 \BOOKMARK [0][-]{chapter.2}{R package setup and maintenance}{}% 17
 \BOOKMARK [1][-]{section.2.1}{Generation of R package}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.1.1}{Chunk from Labjournal}{section.2.1}% 19
@@ -35,10 +35,9 @@
 \BOOKMARK [2][-]{subsection.4.5.2}{Datasets}{section.4.5}% 35
 \BOOKMARK [0][-]{chapter.5}{Outlook}{}% 36
 \BOOKMARK [1][-]{section.5.1}{Codon Bias Indices}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{CHUNK}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{Biological meaning and statistics}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.4}{Package development}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 41
-\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 42
-\BOOKMARK [0][-]{section*.18}{Bibliography}{}% 43
-\BOOKMARK [0][-]{section*.19}{Curriculum Vitae}{}% 44
+\BOOKMARK [1][-]{section.5.2}{Biological meaning and statistics}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Package development}{chapter.5}% 39
+\BOOKMARK [0][-]{chapter.6}{R package on GitHub}{}% 40
+\BOOKMARK [0][-]{appendix.A}{Appendix - the Darwin code for codon indices}{}% 41
+\BOOKMARK [0][-]{section*.18}{Bibliography}{}% 42
+\BOOKMARK [0][-]{section*.19}{Curriculum Vitae}{}% 43

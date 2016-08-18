@@ -12,7 +12,9 @@ The first script for extracting the numbers was:
 The statistic file from a html page for mays is given below as demonstration: 
   \lstinputlisting[language=HTML, breaklines=true]{codes/Zmays.stats}    
  
-However this code had to be adapted because it is only reading in the tRNA genes with introns. Interestingly, by browsing some of the output data from tRNAscan for other species we discovered some that have a huge amount of the alternative usage of the opal stop codon "UGA" that is messing up with the display of the overview in a hierarchical plot for all the tRNA numbers even when standardized for each tRNA, we can see that some of the species show a much higher total number of tRNAs. 
+However \hyperlink{function:readintronic}{this code} had to be adapted because it is only reading in the tRNA genes with introns. Therefore, \hyperlink{function:readstats}{another function} was implemented to read in the total tRNA gene count. Interestingly, by browsing some of the output data from tRNAscan for other species we discovered some that have a huge amount of the alternative usage of the opal stop codon "UGA" that is messing up with the display of the overview in a hierarchical plot for all the tRNA numbers even when standardized for each tRNA, we can see that some of the species show a much higher total number of tRNAs. 
+
+However, there is some inconsistency in the data base in order that a few of the genomes contain so many tRNA genes, that these are overcrowding the graphical representation in a heat map for example (see fig. ~\ref{fig:byrow}).
 
 \begin{figure}[tb] 
 \centering 
@@ -21,8 +23,7 @@ However this code had to be adapted because it is only reading in the tRNA genes
 \label{fig:byrow} 
 \end{figure}
 
-If we plot the log values of the tRNA gene count and normalize by species (column) then we can see that some species have very low numbers of certain codons that is usually compensated by using another block of codons that are rare in the other kingdoms. We also observe some species that have a high number of tRNAs where the isoaccepter remains unknown (codon 65).
-
+If we plot the log values of the tRNA gene count and normalize by species (column) then we can see that some species have very low numbers of certain codons that is usually compensated by using another block of codons that are rare in the other kingdoms  (see fig. ~\ref{fig:bycol}). We also observe some species that have a high number of tRNAs where the isoaccepter remains unknown (codon 65). \\
 
 \begin{figure}[tb] 
 \centering 
@@ -31,49 +32,38 @@ If we plot the log values of the tRNA gene count and normalize by species (colum
 \label{fig:bycol} 
 \end{figure}
 
+We can observe that those run statistics, from vertebrates especially non-primate mammals, are littered with tRNA-derived repetitive elements with primary sequences very similar to real tRNAs. So they apply a non-unveiled post filter after the tRNAscan-SE on those genomes before depositing the predictions to GtRNAdb. Therefore, these had to be rebuild from scanning the headers of the fasta files by implementing yet \hyperlink{function:readfasta}{an alternative funtion}, that seems to be consistent with the new version of tRNAscan 2.0 and gave the best results. For that purpose the fasta file name had to be scanned in the index.html file and the fasta files were renamed according to the directory name to facilitate automation. This needed \hyperlink{function:searchfafile}{a helper function} to find those fasta files on the GtRNAdb2 server. One issue was that genomes with names containing \# or \* have to be treated as special cases, as even the browser fails to fetch the files. Therefore \# was replaced with \%23. \\
 
-\section{text chunk - tRNA database}
+To read in the output file of tRNAscan for tef, a function \hyperlink{function:rtRNAo}{readtRNAout} was created that converts this file to a table resembling the ones created from GtRNAdb2. \\
 
+In contrast to other codon usage software, the statistics is now enhanced by an 65th line containing undefined aminoacid all other anticodons with degenerated base information are counted to the undefined species as they do in the summary page. \\ 
 
-To decide on optimal codons the number of genes for the given anticodon was divided by the maximal number of genes for a anticodon for the same aminoacid to give fraction to optimal codon. The codon was accepted as optimal if this fraction was 1. In a list for every genome with available run statistic data, a frame with aminoacid, codon, number of genes, fraction to optimal codon, fraction to all codons, and the decision if it is a optimal codon was stored for the four superkingdoms seperately.
- 
-\begin{verbatim}
- The genomes with names containing # or * have to be treated as special 
- cases, as even the browser failed to fetch the files. 
- Therefore # was replaced with %23
-\end{verbatim}
+\section{First functions and analyses}
+The project had now the first lines of code that were producing something interesting, however the project should be based on three pillars, namely the code itself, the testing functions and the documentation, including demonstration scripts. Therefore, the R package \textit{statanacoseq} was initiated and the code that produced the first indices and graphical representation rewritten to work as standalone package as well as handling local files. Before we introduce the setup of the package we show some results from the first analyses of the sample data.
 
-However, in those run statistics, from vertebrates especially non-primate mammals, are littered with tRNA-derived repetitive elements with primary sequences very similar to real tRNAs. So they apply a non-unveiled post filter after the tRNAscan-SE on those genomes before depositing the predictions to GtRNAdb. Therefore, and because they were not willing to share the database with the summary statistics, these had to be rebuild from scanning the headers of the fasta files. Therefore the fasta file name had to be scanned in the index.html file and the fasta files were renamed according to the directory name to facilitate automation. 
+\subsection{Optimality of used codons}
+The first index to be implemented was the frequency of optimal codons. When the decision on which codons are optimal is made, the calculation of this index is quite basic. The decision can be made by taking the codon usage of the gene alone or the full genome or what we intended to implement first was to make the decision on the availability of tRNAs estimated from the number of tRNA genes that we find in the genome of \textit{E. tef}. For generalization of the function we scanned available information on tRNA gene counts from a public database. However, the retrieved tRNA database turned out to make some problems as discussed above. In conclusion, some of the species had a much higher number of tRNA genes, so that a normalization was necessary to get an overview on the used codons. \\
 
-The statistics is now enhanced by an 65th line containing undefined aminoacid all other anticodons with degenerated base information are counted to the undefined species (as they do in the summary page)
+To decide on optimal codons the number of genes for the given anticodon was divided by the maximal number of genes for a anticodon for the same amino-acid to give fraction to the optimal codon. The codon was accepted as optimal if this fraction was 1. In a list for every genome with available run statistic data, a frame with amino-acid, codon, number of genes, fraction to optimal codon, fraction to all codons, and the decision if it is a optimal codon was stored for the four superkingdoms seperately. To get an overview of the optimality of the codon used in a gene the function \hyperlink{function:plotOCU}{plotOCU} was implemented to show a moving average on the used codon optimality (see fig. ~\ref{fig:plotGC}). \\
 
-codon ramp (rare codons at the start Tuller et al.) "This “codon ramp” hypothesis should apply primarily in the context of strong translation, but we found that using rare codons at the N terminus increases expression regardless of translation strength." --ANECTODE-- When analysing the moving average of the optionality factor of the codons for the tRNA genes, we don't really detect a codon ramp at the 5' terminus, first, but the first codon was always optimal. No wonder because there is only one codon for Methionine, the start codon. Therefore we should only analyse the aminoacids that have a choice of anti-codons to use.  
+\begin{figure}[tb] 
+\centering 
+\includegraphics[width=0.9\columnwidth]{fig1_plotOCU} 
+\caption[A sample figure from demo plotOCU]{A sample figure (from plot OCU \emph{demo(plotOCU)}, of statanacoseq, got from \url{https://github.com/fredysiegrist/statanacoseq}) shwoing the optimality score of each codon used for coding Similar to Eukaryotic peptide chain release factor subunit 1-3 (eRF1-3) gene of teff.}
+\label{fig:plotOCU} 
+\end{figure}
 
-For analyzing codon usage in E. teff Gina's validated protein-transcript fasta files were used, however there were two issues in the database: 
+One of the expected attributes of the moving average line for the optimality of the used codons is the so called codon ramp \cite{Tuller2010}. The codon ramp describes the phenomenom that rare codons are used at the start of genes. This hypothesis first mainly was proposed for genes with strong translation, but then it has been shown that rare codons at the N terminus increased expression in a general manner. However, when we analyzed some genes from teff, we couldn't observe a overrepresentation of rare codons at the start of the protein translation.  When analysing the moving average of the optionality factor of the codons for the tRNA genes, we don't really detect a codon ramp at the 5' terminus, but the first codon was always optimal. No wonder because there is only one codon for methionine, the start codon. Therefore we should only analyse the aminoacids that have a choice of anti-codons to use. However, the refinement of this code needs still to be implemented.  
+Other issues during codon usage analysis was found in the data files of tef that is labeled as validated protein-transcript fasta files: 
 first one of the proteins (
 Et\_s4372-0.17-1
-) was truncated, didn't startet with methionine and was not corresponding to the truncated transcript, secondly the number of transcripts matched the number of proteins, but there was one orphan entry on each side (
+) was truncated and didn't startet with methionine and was not corresponding to the truncated transcript, secondly the number of transcripts matched the number of proteins, but there was one orphan entry on each side (
 Et\_s2692-0.26-1, Et\_s14755-0.7-1
 ), that had to be filled up with the corresponding entry of the other datafile. 
+The files were then corrected and stored as a local copy, however this lead to the condensation of those huge fasta files to a sample data-set incorporated in the package itself that could be used further for demonstration of the functions without running in further issues.
 
-
-\subsection{text chunk - Project notes}
-The first index to be implemented was the frequency of optimal codons. When the decision on which codons are optimal is made, the calculation of this index is quite basic. The decision can be made by taking the codon usage of the gene alone or the full genome or what we intended to implement first was to make the decision on the availability of tRNAs estimated from the number of tRNA genes that we find in the genome of \textit{E. tef}. For generalization of the function we scanned available information on tRNA gene counts from a public database. However, the retrieved tRNA database turned out to make some problems: \\
-Some of the species had a much higher number of tRNA genes, so that a normalization was necessary to get an overview on the used codons. %, anomolous values solutions: standardize data \\
-% computed codon usage in tef problems: odd characters in data, mismatch, solution: preprocess data
-% sequences in frame: solution: preprocess data
-%is implementation of a suffix tree a possibility?
-
-% testing - use the sequences form the original papers and show that you get the same values
-
-The project is based on three pillars, namely the code itself, the testing functions and the documentation, including demonstration scripts.
-
-%start with CAI
-% look at implementatino in seqinR-  what is available already in SeqinR? use as much of their stuff as possible but we want to keep the possibility to change base data if you want (tRNA mapping and frequencies)
-% look at what the possibilities are and what parts of the exisiting implementation can be used?
-% if not , reimplement in such a way that it is more flexible 
-
-If we print the mean GC content of the first two bases against the one at the third codon position for the sample sequences of teff, we can observed that they tend to follow each other there. 
+\subsection{GC content at codon sites}
+Another basic statistic that can be applied without looking at the full genome is the GC content at the different positions of the codons. If we print the mean GC content of the first two bases against the one at the third codon position for the sample sequences of tef, we can observed that they tend to follow each other there (see fig. ~\ref{fig:plotGC}). This function was implemented at last but shows exemplarly how basic analyses on custom genomes can be implemented in simple codes for comparision these genomic information.
 
 \begin{figure}[tb] 
 \centering 
@@ -83,10 +73,3 @@ If we print the mean GC content of the first two bases against the one at the th
 \end{figure} 
 
 
-\subsection{Plot OCU demo}
-\begin{figure}[tb] 
-\centering 
-\includegraphics[width=0.9\columnwidth]{fig1_plotOCU} 
-\caption[A sample figure from demo plotOCU]{A sample figure (from plot OCU \emph{demo(plotOCU)}, of statanacoseq, got from \url{https://github.com/fredysiegrist/statanacoseq}) shwoing the optimality score of each codon used for coding Similar to Eukaryotic peptide chain release factor subunit 1-3 (eRF1-3) gene of teff.}
-\label{fig:plotOCU} 
-\end{figure}
