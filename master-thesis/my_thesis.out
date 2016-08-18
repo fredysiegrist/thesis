@@ -10,7 +10,7 @@
 \BOOKMARK [2][-]{subsection.0.3.1}{Genetic Code}{section.0.3}% 10
 \BOOKMARK [0][-]{chapter.1}{Setup of data and project}{}% 11
 \BOOKMARK [1][-]{section.1.1}{Getting familiar with the data}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.1}{read tRNA stats and decide on optimality of a codon}{section.1.1}% 13
+\BOOKMARK [2][-]{subsection.1.1.1}{tRNA gene statistics and optimality of codons}{section.1.1}% 13
 \BOOKMARK [1][-]{section.1.2}{text chunk - tRNA database}{chapter.1}% 14
 \BOOKMARK [2][-]{subsection.1.2.1}{text chunk - Project notes}{section.1.2}% 15
 \BOOKMARK [2][-]{subsection.1.2.2}{Plot OCU demo}{section.1.2}% 16

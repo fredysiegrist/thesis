@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  17 AUG 2016 20:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.17)  18 AUG 2016 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1820,20 +1820,24 @@ Overfull \hbox (76.35938pt too wide) in paragraph at lines 41--130
 
 ]
 Chapter 1.
-(./codes/readstats.R
-Underfull \vbox (badness 5578) has occurred while \output is active []
 
- [7])
+LaTeX Warning: Citation `Chan2016' on page 7 undefined on input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+(./codes/readstats.R)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-(./codes/Zmays.stats [8])
-Underfull \vbox (badness 3668) has occurred while \output is active []
+(./codes/Zmays.stats [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [9])
 Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)                    date: 2016-08-09 19:56:14
 (epstopdf)                    size: 9836584 bytes
@@ -1842,15 +1846,15 @@ Package epstopdf Info: Source file: <images/byrow.eps>
 (epstopdf)                    size: 1023238 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/byrow-eps-converted
 -to.pdf images/byrow.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/byrow-eps-converted-to.pdf, id=518, 505.89pt x 505.89pt>
+<images/byrow-eps-converted-to.pdf, id=519, 505.89pt x 505.89pt>
 File: images/byrow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/byrow-eps-converted-to.pdf>
 Package pdftex.def Info: images/byrow-eps-converted-to.pdf used on input line 1
-5.
+9.
 (pdftex.def)             Requested size: 376.42575pt x 376.4292pt.
 Package epstopdf Info: Source file: <images/logallfa_col.eps>
 (epstopdf)                    date: 2016-08-10 16:58:26
@@ -1860,38 +1864,34 @@ Package epstopdf Info: Source file: <images/logallfa_col.eps>
 (epstopdf)                    size: 1158831 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/logallfa_col-eps-co
 nverted-to.pdf images/logallfa_col.eps>
-(epstopdf)             \includegraphics on input line 25.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logallfa_col-eps-converted-to.pdf, id=521, 505.89pt x 505.89pt>
+<images/logallfa_col-eps-converted-to.pdf, id=522, 505.89pt x 505.89pt>
 File: images/logallfa_col-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logallfa_col-eps-converted-to.pdf>
 Package pdftex.def Info: images/logallfa_col-eps-converted-to.pdf used on input
- line 25.
+ line 29.
 (pdftex.def)             Requested size: 376.42575pt x 376.4292pt.
-
-
-LaTeX Warning: Citation `Chan2016' on page 10 undefined on input line 33.
-
-[10]
+ [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./images/byrow-eps-converted-to.pdf>]
-Underfull \vbox (badness 1838) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./images/logallfa_col-eps-converted-to.pdf>]
-<images/plotGC.png, id=551, 301.125pt x 301.125pt>
+<images/plotGC.png, id=556, 301.125pt x 301.125pt>
 File: images/plotGC.png Graphic file (type png)
  <use images/plotGC.png>
-Package pdftex.def Info: images/plotGC.png used on input line 77.
+Package pdftex.def Info: images/plotGC.png used on input line 80.
 (pdftex.def)             Requested size: 209.12683pt x 209.13652pt.
 
-<images/fig1_plotOCU.jpg, id=554, 673.51625pt x 673.51625pt>
+<images/fig1_plotOCU.jpg, id=559, 673.51625pt x 673.51625pt>
 File: images/fig1_plotOCU.jpg Graphic file (type jpg)
 
 <use images/fig1_plotOCU.jpg>
-Package pdftex.def Info: images/fig1_plotOCU.jpg used on input line 86.
+Package pdftex.def Info: images/fig1_plotOCU.jpg used on input line 89.
 (pdftex.def)             Requested size: 376.42575pt x 376.42657pt.
 ) [13] [14 <./images/plotGC.png>] [15 <./images/fig1_plotOCU.jpg>]
 \openout2 = `main/ch3_Rpackage.aux'.
@@ -2151,7 +2151,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `tail/cv.aux'.
 
  (./tail/cv.tex
-<tail/cv.pdf, id=1168, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1173, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
  <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
@@ -2161,7 +2161,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 <use tail/cv.pdf>
 Package pdftex.def Info: tail/cv.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <tail/cv.pdf, id=1171, page=1, 597.50829pt x 845.0471pt>
+ <tail/cv.pdf, id=1176, page=1, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 1>
@@ -2191,7 +2191,7 @@ Package pdftex.def Info: tail/cv.pdf, page1 used on input line 5.
 
 
  <./tail/cv.pdf>]
-<tail/cv.pdf, id=1192, page=2, 597.50829pt x 845.0471pt>
+<tail/cv.pdf, id=1197, page=2, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 2>
@@ -2206,7 +2206,7 @@ File: tail/cv.pdf Graphic file (type pdf)
 Package pdftex.def Info: tail/cv.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[42 <./tail/cv.pdf>] <tail/cv.pdf, id=1202, page=3, 597.50829pt x 845.0471pt>
+[42 <./tail/cv.pdf>] <tail/cv.pdf, id=1207, page=3, 597.50829pt x 845.0471pt>
 File: tail/cv.pdf Graphic file (type pdf)
 
 <use tail/cv.pdf, page 3>
@@ -2231,9 +2231,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 ) (./tail/appendix.aux) (./tail/biblio.aux) (./tail/cv.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
-Package rerunfilecheck Info: File `my_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A50CD2678AE6B6E0D89BD1F5E19A5D14;2856.
 
+
+Package rerunfilecheck Warning: File `my_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `my_thesis.out':
+(rerunfilecheck)             Before: A50CD2678AE6B6E0D89BD1F5E19A5D14;2856
+(rerunfilecheck)             After:  28BF3D61876951CC82E047216EB51364;2850.
 
 LaTeX Warning: There were undefined references.
 
@@ -2242,7 +2248,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
 Here is how much of TeX's memory you used:
  28872 strings out of 494474
  468613 string characters out of 6172703
- 1047617 words of memory out of 5000000
+ 1047685 words of memory out of 5000000
  30441 multiletter control sequences out of 15000+600000
  137131 words of font info for 261 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
@@ -2260,10 +2266,10 @@ ublic/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on my_thesis.pdf (61 pages, 3841890 bytes).
+Output written on my_thesis.pdf (61 pages, 3842286 bytes).
 PDF statistics:
- 1399 PDF objects out of 1440 (max. 8388607)
- 1291 compressed objects within 13 object streams
+ 1404 PDF objects out of 1440 (max. 8388607)
+ 1296 compressed objects within 13 object streams
  735 named destinations out of 1000 (max. 500000)
  48041 words of extra memory for PDF output out of 51595 (max. 10000000)
 

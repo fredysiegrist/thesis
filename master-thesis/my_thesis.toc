@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {0.3.1}Genetic Code}{4}{subsection.0.3.1}
 \contentsline {chapter}{\numberline {1}Setup of data and project}{7}{chapter.1}
 \contentsline {section}{\numberline {1.1}Getting familiar with the data}{7}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}read tRNA stats and decide on optimality of a codon}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}tRNA gene statistics and optimality of codons}{7}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}text chunk - tRNA database}{10}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{12}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}text chunk - Project notes}{13}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Plot OCU demo}{13}{subsection.1.2.2}
 \contentsline {chapter}{\numberline {2}R package setup and maintenance}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}Generation of R package}{17}{section.2.1}
